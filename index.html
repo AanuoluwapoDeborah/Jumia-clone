@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jumia-clone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fab040517b.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    <nav id="topNav" class="d-flex align-items-center px-5">
+        <div>
+            <a href="" class="mx-3 link-offset-1-hover link-underline-warning link-underline-opacity-0 link-underline-opacity-75-hover d-flex align-items-center"> <img class="me-1 img-fluid" src="jumia-icon-removebg-preview.png" alt=""> Sell on Jumia</a>
+        </div>
+        <div id="payLogo" class="d-flex justify-content-center align-items-center">
+            <img class="mx-1 img-fluid" id="logoOne" src="jumia-logo-removebg-preview.png" alt="">
+            <img class="mx-1 img-fluid" id="logoTwo" src="jumia-pay-logo-removebg-preview.png" alt="">
+        </div>
+    </nav>
+    <nav id="nav2" class="navbar navbar-expand-lg bg-body px-4 py-0">
+        <div class="container-fluid d-flex align-items-center justify-content-around">
+          <div>
+            <img id="logo" class="img-fluid" src="jumia-logo-removebg-preview.png" alt="">
+          </div>
+          <div class="d-flex justify-content-center align-items-center" id="navbarSupportedContent">
+                <form class="d-flex align-items-center" role="search">
+                    <div class="border border-black border-opacity-25 p-2 d-flex align-items-center rounded-2 me-2">
+                        <img id="searchIcon" class="img-fluid" src="jumia-search-icon-removebg-preview.png" alt="">
+                        <input class="border border-0 w-100 bg-transparent mx-2" type="search" placeholder="Search products, brands and categories" aria-label="Search">
+                    </div>
+                    <button id="searchBtn" class="btn text-light" type="submit">SEARCH</button>
+                </form>
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center justify-content-center">
+                    <li class="">
+                    <a class="link-dark mx-3 link-offset-1-hover link-underline-opacity-0 d-flex align-items-center" href="#"><i class="fa-regular fa-user"></i><span class="mx-2">Account</span><i class="fa-solid fa-angle-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="link-dark mx-3 link-offset-1-hover link-underline-opacity-0 d-flex align-items-center" href="#"><i class="fa-regular fa-circle-question"></i><span class="mx-2">Help</span><i class="fa-solid fa-angle-down"></i></a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="link-dark mx-3 link-offset-1-hover link-underline-opacity-0 d-flex align-items-center" href="#"><i class="fa-solid fa-cart-shopping"></i><span class="mx-2">Cart</span></a>
+                    </li>
+                </ul>
+          </div>
+        </div>
+    </nav>
+    <section>
+        <div class="d-flex align-items-center justify-content-between" id="firstSection">
+            <div class="bg-light rounded-2" id="firstSectionLeft">
+                <ul class="">
+                    <li id="supermarket"><a class="link-dark link-opacity-75 link-underline-opacity-0" href=""><i class="fa-solid fa-apple-whole"></i><span class="p-2">Supermarket</span></a></li>
+                    <li><a class="link-dark link-opacity-75 link-underline-opacity-0" href=""><i class="fa-regular fa-eye"></i><span class="p-2">Health & Beauty</span></a></li>
+                    <li><a class="link-dark link-opacity-75 link-underline-opacity-0" href=""><i class="fa-solid fa-house"></i><span class="p-2">Home & Office</span></a></li>
+                    <li><a class="link-dark link-opacity-75 link-underline-opacity-0" href=""><i class="fa-solid fa-kitchen-set"></i><span class="p-2">Appliances</span></a></li>
+                    <li><a class="link-dark link-opacity-75 link-underline-opacity-0" href=""><i class="fa-solid fa-mobile-screen"></i><span class="p-2">Phones & Tablets</span></a></li>
+                    <li><a class="link-dark link-opacity-75 link-underline-opacity-0" href=""><i class="fa-solid fa-display"></i><span class="p-2">Computing</span></a></li>
+                    <li><a class="link-dark link-opacity-75 link-underline-opacity-0" href=""><i class="fa-solid fa-radio"></i><span class="p-2">Electronics</span></a></li>
+                    <li><a class="link-dark link-opacity-75 link-underline-opacity-0" href=""><i class="fa-solid fa-shirt"></i><span class="p-2">Fashion</span></a></li>
+                    <li><a class="link-dark link-opacity-75 link-underline-opacity-0" href=""><i class="fa-solid fa-baby"></i><span class="p-2">Baby products</span></a></li>
+                    <li><a class="link-dark link-opacity-75 link-underline-opacity-0" href=""><i class="fa-solid fa-dice"></i><span class="p-2">Gaming</span></a></li>
+                    <li><a class="link-dark link-opacity-75 link-underline-opacity-0" href=""><i class="fa-solid fa-dumbbell"></i><span class="p-2">Sporting Goods</span></a></li>
+                    <li><a class="link-dark link-opacity-75 link-underline-opacity-0" href=""><i class="fa-solid fa-ellipsis"></i><span class="p-2">Other categories</span></a></li>
+                </ul>
+            </div>
+            <div id="firstSectionDropDown" class="bg-light p-3 pb-0 d-flex justify-content-between rounded-end">
+                    <div class="" style="width: 32%;">
+                        <a class="nav-link" href=""><h6>FOOD CARDBOARD</h6></a>
+                        <div id="line"></div>
+                        <a class="nav-link" href="">Grains & Rice</a>
+                        <a class="nav-link" href="">Pasta & Noodles</a>
+                        <a class="nav-link" href="">Breakfast Foods</a>
+                        <a class="nav-link" href="">Herbs, Spicies & Seasoning</a>
+                        <a class="nav-link" href="">Flours & Meals</a>
+                        <a class="nav-link" href="">Malt Drinks</a>
+                        <a class="nav-link" href="">Coffee</a>
+                        <a class="nav-link" href="">Water</a>
+                        <a class="nav-link" href="">Cooking Oil</a>
+                        <a class="nav-link" href="">Canned & Packaged Foogs</a>
+                        <a class="nav-link" href="">Candy & Chocolate</a>
+                        <a class="nav-link" href="">Syrup, Sugar & Sweetners</a>
+                    </div>
+                    <div class="" style="width: 32%;">
+                        <a class="nav-link" href=""><h6>BEVERAGES</h6></a>
+                        <div id="line"></div>
+                        <a class="nav-link" href="">Soft Drink</a>
+                        <a class="nav-link" href="">Milk & Cream</a>
+                        <a class="nav-link" href="">Energy Drink</a>
+                        <a class="nav-link" href="">Bottled Beverages</a>
+
+                        <a class="nav-link mt-4" href=""><h6>HOUSEHOLD CLEANING</h6></a>
+                        <div id="line"></div>
+                        <a class="nav-link" href="">Laundry</a>
+                        <a class="nav-link" href="">Air Fresheners</a>
+                        <a class="nav-link" href="">Toilet Paper & Wipes</a>
+                        <a class="nav-link" href="">Bathroom Cleaners</a>
+                        <a class="nav-link" href="">Dishwashing</a>
+                        <a class="nav-link" href="">Cleaning Tools</a>
+
+                        <a class="nav-link mt-4" href=""><h6>BEAR, WINES & SPIRITS</h6></a>
+                        <div id="line"></div>
+                        <a class="nav-link" href="">Beers</a>
+                        <a class="nav-link" href="">Vodka</a>
+                    </div>
+                    <div class="" style="width: 32%;">
+                        <a class="nav-link" href=""><h6>BABY PRODUCTS</h6></a>
+                        <div id="line"></div>
+                        <a class="nav-link" href="">Disposable Diapers</a>
+                        <a class="nav-link" href="">Bottle Feeding</a>
+                        <a class="nav-link" href="">Wipes & Refills</a>
+                    </div>
+            </div>
+            <div id="carouselExampleSlidesOnly" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="7000">
+                <div class="carousel-indicators">
+                    <button id="carouselBtn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active rounded-circle" aria-current="true" aria-label="Slide 1"></button>
+                    <button id="carouselBtn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="rounded-circle" aria-label="Slide 2"></button>
+                    <button id="carouselBtn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="rounded-circle" aria-label="Slide 3"></button>
+                    <button id="carouselBtn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" class="rounded-circle" aria-label="Slide 4"></button>
+                    <button id="carouselBtn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" class="rounded-circle" aria-label="Slide 5"></button>
+                    <button id="carouselBtn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" class="rounded-circle" aria-label="Slide 6"></button>
+                    <button id="carouselBtn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" class="rounded-circle" aria-label="Slide 7"></button>
+                    <button id="carouselBtn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="7" class="rounded-circle" aria-label="Slide 8"></button>
+                  </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <a href="">
+                        <img src="https://ng.jumia.is/cms/0-5-TechWeek/2024/generic/Desktop_Homepage_Slider__712x384.png" class="img-fluid rounded-2" alt="">
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="">
+                        <img src="https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week_10/IWD/IWD_SLIDER/Deals_for_women_712x384.png" class="img-fluid rounded-2" alt="">
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="">
+                        <img src="https://ng.jumia.is/cms/0-1-initiatives/flashsale/2023/Slider.png" class="img-fluid rounded-2" alt="">
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="">
+                        <img src="https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/0-1Advertising/MARCH/Nivea/NIVEA_RAMA-712X384.jpg" class="img-fluid rounded-2" alt="">
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="">
+                        <img src="https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/0-1Advertising/MARCH/XIAOMI/712.jpg" class="img-fluid rounded-2" alt="">
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="">
+                        <img src="https://ng.jumia.is/cms/0-1-weekly-cps/0-2024/Week_10/RAMADAN/slider-ramadan.jpg" class="img-fluid rounded-2" alt="">
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="">
+                        <img src="https://ng.jumia.is/cms/0-1-initiatives/jumia-global/2024/MARCH/CPR/712x384.png" class="img-fluid rounded-2" alt="">
+                    </a>
+                  </div>
+                  <div class="carousel-item">
+                    <a href="">
+                        <img src="https://ng.jumia.is/cms/0-1-initiatives/jumia-pay/2024/Providous/712_X_384-jpay.png" class="img-fluid rounded-2" alt="">
+                    </a>
+                  </div>
+                </div>
+            </div>
+            <div id="firstSectionRight" class="d-flex flex-column justify-content-between">
+                <div id="firstSectionRightTop" class="bg-light rounded-2">
+                    <div class="d-flex align-items-center">
+                        <i class="fa-solid fa-phone border border-warning p-2 rounded-circle"></i>
+                        <div class="lh-base mx-2">
+                            <p id="firstSectionRightP" class="m-0">CALL TO ORDER</p>
+                            <p id="callCenter" class="m-0">0700-600-0000</p>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <a class="d-flex align-items-center nav-link" href="">
+                            <i class="fa-solid fa-shop border border-warning p-2 rounded-circle"></i>
+                            <p id="firstSectionRightP" class="m-0 mx-2">Sell on Jumia</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a  class="d-flex align-items-center nav-link" href="">
+                            <p id="firstSectionRightP" class="m-0 mx-2">Best Deals</p>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <a href="">
+                        <img class="img-fluid rounded-2" src="https://ng.jumia.is/cms/0-1-initiatives/jforce/2024/shop_earn.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div id="secondSection" class="bg-light p-2 d-flex flex-wrap justify-content-evenly rounded-2">
+            <div class="card border border-0" style="width: 11.5rem; margin-bottom: 5px;">
+                <a class="nav-link" href="">
+                    <img src="https://ng.jumia.is/cms/0-5-TechWeek/2024/Category-Freelink/Homepage-thumbnails/clearance.jpg" class="card-img-top rounded-2 img-fluid" alt="">
+                    <div class="card-body">
+                        <p class="card-text text-center">clearance Sale</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card border border-0" style="width: 11.5rem; margin-bottom: 5px;">
+                <a class="nav-link" href="">
+                    <img src="https://ng.jumia.is/cms/0-5-TechWeek/2024/Category-Freelink/Homepage-thumbnails/global.jpg" class="card-img-top rounded-2 img-fluid" alt="">
+                    <div class="card-body">
+                    <p class="card-text text-center">Best Deals</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card border border-0" style="width: 11.5rem; margin-bottom: 5px;">
+                <a class="nav-link" href="">
+                    <img src="https://ng.jumia.is/cms/0-5-TechWeek/2024/Category-Freelink/Homepage-thumbnails/phones-tablet.jpg" class="card-img-top rounded-2 img-fluid" alt="">
+                    <div class="card-body">
+                    <p class="card-text text-center">Phones & Tablets</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card border border-0" style="width: 11.5rem; margin-bottom: 5px;">
+                <a class="nav-link" href="">
+                    <img src="https://ng.jumia.is/cms/0-5-TechWeek/2024/Category-Freelink/Homepage-thumbnails/sneakers.jpg" class="card-img-top rounded-2 img-fluid" alt="">
+                    <div class="card-body">
+                    <p class="card-text text-center">Men's Sneakers</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card border border-0" style="width: 11.5rem; margin-bottom: 5px;">
+                <a class="nav-link" href="">
+                    <img src="https://ng.jumia.is/cms/0-5-TechWeek/2024/Category-Freelink/Homepage-thumbnails/televisions.jpg" class="card-img-top rounded-2 img-fluid" alt="">
+                    <div class="card-body">
+                    <p class="card-text text-center">Televisions</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card border border-0" style="width: 11.5rem; margin-bottom: 5px;">
+                <a class="nav-link" href="">
+                    <img src="https://ng.jumia.is/cms/0-5-TechWeek/2024/Category-Freelink/Homepage-thumbnails/refrigerator.jpg" class="card-img-top rounded-2 img-fluid" alt="">
+                    <div class="card-body">
+                    <p class="card-text text-center">Refrigerators</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card border border-0" style="width: 11.5rem; margin-bottom: 5px;">
+                <a class="nav-link" href="">
+                    <img src="https://ng.jumia.is/cms/0-5-TechWeek/2024/Category-Freelink/Homepage-thumbnails/generators.jpg" class="card-img-top rounded-2 img-fluid" alt="">
+                    <div class="card-body">
+                    <p class="card-text text-center">Generators</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card border border-0" style="width: 11.5rem; margin-bottom: 5px;">
+                <a class="nav-link" href="">
+                    <img src="https://ng.jumia.is/cms/0-5-TechWeek/2024/Category-Freelink/Homepage-thumbnails/mobile-accessories.jpg" class="card-img-top rounded-2 img-fluid" alt="">
+                    <div class="card-body">
+                    <p class="card-text text-center">Mobile Accessories</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card border border-0" style="width: 11.5rem; margin-bottom: 5px;">
+                <a class="nav-link" href="">
+                    <img src="https://ng.jumia.is/cms/0-5-TechWeek/2024/Category-Freelink/Homepage-thumbnails/computing.jpg" class="card-img-top rounded-2 img-fluid" alt="">
+                    <div class="card-body">
+                    <p class="card-text text-center">Computing Deals</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card border border-0" style="width: 11.5rem; margin-bottom: 5px;">
+                <a class="nav-link" href="">
+                    <img src="https://ng.jumia.is/cms/0-5-TechWeek/2024/Category-Freelink/Homepage-thumbnails/groceries.jpg" class="card-img-top rounded-2 img-fluid" alt="">
+                    <div class="card-body">
+                    <p class="card-text text-center">Groceries</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card border border-0" style="width: 11.5rem; margin-bottom: 5px;">
+                <a class="nav-link" href="">
+                    <img src="https://ng.jumia.is/cms/0-5-TechWeek/2024/Category-Freelink/Homepage-thumbnails/made-in-nigeria.jpg" class="card-img-top rounded-2 img-fluid" alt="">
+                    <div class="card-body">
+                    <p class="card-text text-center">Made in Nigeria</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card border border-0" style="width: 11.5rem; margin-bottom: 5px;">
+                <a class="nav-link" href="">
+                    <img src="https://ng.jumia.is/cms/0-5-TechWeek/2024/Category-Freelink/Homepage-thumbnails/unnamed.jpg" class="card-img-top rounded-2 img-fluid" alt="">
+                    <div class="card-body">
+                    <p class="card-text text-center">18+</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="thirdSection" class="bg-light p-2 rounded-2 d-flex flex-column align-items-center justify-content-center">
+            <h5 class="text-center py-2">Exciting Offers & Games To Expect</h5>
+            <a href="">
+                <img src="https://ng.jumia.is/cms/0-5-TechWeek/2024/Treasure-Hunt/1152x252_TH_GIT.gif" alt="">
+            </a>
+        </div>
+        <div id="thirdSection" class="bg-light p-2 rounded-2 d-flex align-items-center justify-content-between">
+            <a href="">
+                <img src="https://ng.jumia.is/cms/0-5-TechWeek/2024/games/Hextis/572-x-250_hextris.gif" alt="">
+            </a>
+            <a href="">
+                <img src="https://ng.jumia.is/cms/0-5-TechWeek/2024/games/Hextis/572-x-250_puzzles.gif" alt="">
+            </a>
+        </div>
+    </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
