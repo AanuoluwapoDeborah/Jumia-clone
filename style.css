@@ -116,4 +116,54 @@ ul{
 }
 #thirdSection{
     margin-bottom: 15px;
+    background-color: rgb(170, 222, 241);
+}
+#sectionFour{
+    margin-bottom: 15px;
+}
+#sectionFourDiv, #sectionFiveDiv, #sectionSixDiv{
+    overflow-x: scroll !important;
+    width: fit-content;
+}
+#sectionFour #seeAllLink{
+    color: #f68b1e;
+}
+.sectionFourDivs, .sectionFiveDivs, .sectionSixDivs{
+    margin-right: 5px;
+    min-width: 11.5rem !important;
+}
+.sectionFourDivs .details, .sectionFiveDivs .details, .sectionSixDivs .details{
+    padding-bottom: 0;
+    padding: 8px;
+    color: rgb(49, 49, 51);
+    line-height: 20px;
+}
+#sectionFour p, #sectionFive p, #sectionSix p{
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+#sectionFour b, #sectionFive b, #sectionSix b{
+    font-size: 16px;
+    font-weight: 500;
+}
+#sectionFour span, #sectionFive span, #sectionSix span{
+    font-size: 12px;
+    color: rgba(49, 49, 51, 0.605);
+    text-decoration: line-through;
+    text-decoration-color: rgba(49, 49, 51, 0.605);
+}
+#sectionFive, #sectionSix{
+    margin-bottom: 15px;
+    background-color: rgb(170, 222, 241);
+}
+#seeAllLink{
+    font-size: 14px;
+}
+#sectionSeven{
+    margin-bottom: 15px;
+    background-color: rgb(170, 222, 241);
+}
+#sectionSeven #img-1{
+    width: 15%;
 }
