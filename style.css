@@ -47,7 +47,6 @@ section{
     background-color: #b974df;
 }
 #firstSection{
-    border: 1px solid red;
     margin-bottom: 15px;
 }
 ul{
@@ -56,7 +55,7 @@ ul{
     padding: 0 10px !important;
 }
 #firstSectionLeft{
-    width: 18%;
+    width: 27%;
     font-size: 13px;
     line-height: 32px;
 }
@@ -96,6 +95,7 @@ ul{
 }
 #firstSectionRight{
     height: 65.5vh;
+    width: 30%;
 }
 #firstSectionRightTop{
     line-height: 60px;
@@ -108,62 +108,75 @@ ul{
     font-size: 14px;
     font-weight: 500;
 }
+#firstSectionRight img{
+    width: 100%;
+}
 #secondSection{
     margin-bottom: 15px;
 }
 #secondSection #img-1{
     width: 15%;
 }
-#thirdSection{
+#thirdSection, #sectionTen{
     margin-bottom: 15px;
     background-color: rgb(170, 222, 241);
 }
+/* #thirdSection img:hover, #sectionTen img:hover{
+    box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.208);
+} */
 #sectionFour{
     margin-bottom: 15px;
 }
-#sectionFourDiv, #sectionFiveDiv, #sectionSixDiv{
+#sectionFourDiv, #sectionFiveDiv, #sectionSixDiv, #sectionEightDiv{
     overflow-x: scroll !important;
-    width: fit-content;
+    max-width: 100%;
+    padding: 5px;
 }
 #sectionFour #seeAllLink{
     color: #f68b1e;
 }
-.sectionFourDivs, .sectionFiveDivs, .sectionSixDivs{
+.sectionFourDivs, .sectionFiveDivs, .sectionSixDivs, .sectionEightDivs{
     margin-right: 5px;
     min-width: 11.5rem !important;
 }
-.sectionFourDivs .details, .sectionFiveDivs .details, .sectionSixDivs .details{
+.sectionFourDivs .details, .sectionFiveDivs .details, .sectionSixDivs .details, .sectionEightDivs .details{
     padding-bottom: 0;
     padding: 8px;
     color: rgb(49, 49, 51);
     line-height: 20px;
 }
-#sectionFour p, #sectionFive p, #sectionSix p{
+#sectionFour p, #sectionFive p, #sectionSix p, #sectionEight p{
     font-size: 14px;
     font-weight: 400;
     margin: 0;
 }
-#sectionFour b, #sectionFive b, #sectionSix b{
+#sectionFour b, #sectionFive b, #sectionSix b, #sectionEight b{
     font-size: 16px;
     font-weight: 500;
 }
-#sectionFour span, #sectionFive span, #sectionSix span{
+#sectionFour span, #sectionFive span, #sectionSix span, #sectionEight span{
     font-size: 12px;
     color: rgba(49, 49, 51, 0.605);
     text-decoration: line-through;
     text-decoration-color: rgba(49, 49, 51, 0.605);
 }
-#sectionFive, #sectionSix{
+#sectionFive, #sectionSix, #sectionEight{
     margin-bottom: 15px;
     background-color: rgb(170, 222, 241);
 }
 #seeAllLink{
     font-size: 14px;
 }
-#sectionSeven{
+#sectionSeven, #sectionNine{
     margin-bottom: 15px;
     background-color: rgb(170, 222, 241);
 }
-#sectionSeven #img-1{
+#sectionSeven #img-1, #sectionNine #img-1{
     width: 15%;
+}
+#sectionSeven p, #sectionNine p{
+    font-size: 14px;
+}
+#cardHover:hover{
+    box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.208);
 }
