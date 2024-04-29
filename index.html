@@ -24,25 +24,63 @@
           <div>
             <img id="logo" class="img-fluid" src="jumia-logo-removebg-preview.png" alt="">
           </div>
-          <div class="d-flex justify-content-center align-items-center" id="navbarSupportedContent">
-                <form class="d-flex align-items-center" role="search">
+          <div class="d-flex justify-content-between align-items-center w-75" id="navbarSupportedContent">
+                <div class="d-flex align-items-center">
                     <div class="border border-black border-opacity-25 p-2 d-flex align-items-center rounded-2 me-2">
                         <img id="searchIcon" class="img-fluid" src="jumia-search-icon-removebg-preview.png" alt="">
                         <input class="border border-0 w-100 bg-transparent mx-2" type="search" placeholder="Search products, brands and categories" aria-label="Search">
                     </div>
                     <button id="searchBtn" class="btn text-light" type="submit">SEARCH</button>
-                </form>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center justify-content-center">
-                    <li class="">
-                    <a class="link-dark mx-3 link-offset-1-hover link-underline-opacity-0 d-flex align-items-center" href="#"><i class="fa-regular fa-user"></i><span class="mx-2">Account</span><i class="fa-solid fa-angle-down"></i></a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="link-dark mx-3 link-offset-1-hover link-underline-opacity-0 d-flex align-items-center" href="#"><i class="fa-regular fa-circle-question"></i><span class="mx-2">Help</span><i class="fa-solid fa-angle-down"></i></a>
-                    </li>
-                    <li class="nav-item">
-                    <a class="link-dark mx-3 link-offset-1-hover link-underline-opacity-0 d-flex align-items-center" href="#"><i class="fa-solid fa-cart-shopping"></i><span class="mx-2">Cart</span></a>
-                    </li>
-                </ul>
+                </div>
+                <div class="dropDownDiv d-flex align-items-center justify-content-between">
+                    <div class="navDropDown" id="navDropDown">
+                        <div class="rounded-2" id="buttonDiv">
+                            <i class="fa-regular fa-user"></i>
+                            <button>Account</button>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <ul class="dropdown-menu shadow p-0" id="dropDownContent">
+                            <button class="dropBtn rounded-2 m-3">LIVE CHAT</button>
+                            <div class="border border-secondary border-opacity-25"></div>
+                            <li class="px-3">
+                                <a class="link-dark link-offset-1-hover link-underline-opacity-0 d-flex align-items-center" href="">
+                                    <span>Help Center</span>
+                                </a>
+                            </li>
+                            <li class="px-3">
+                                <a class="link-dark link-offset-1-hover link-underline-opacity-0 d-flex align-items-center" href="">
+                                    <span>Place an order</span>
+                                </a>
+                            </li>
+                            <li class="px-3">
+                                <a class="link-dark link-offset-1-hover link-underline-opacity-0 d-flex align-items-center" href="">
+                                    <span>Payment options</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="navDropDown" id="navDropDown2">
+                        <div class="rounded-2" id="buttonDiv2">
+                            <i class="fa-regular fa-circle-question"></i>
+                            <button>Help</button>
+                            <i class="fa-solid fa-angle-down"></i>
+                        </div>
+                        <ul class="dropdown-menu shadow p-0" id="dropDownContent">
+                            <li class="px-3"><a class="link-dark link-offset-1-hover link-underline-opacity-0" href="">Help Center</a></li>
+                            <li class="px-3"><a class="link-dark link-offset-1-hover link-underline-opacity-0" href="">Place an order</a></li>
+                            <li class="px-3"><a class="link-dark link-offset-1-hover link-underline-opacity-0" href="">Payment options</a></li>
+                            <li class="px-3"><a class="link-dark link-offset-1-hover link-underline-opacity-0" href="">Track an order</a></li>
+                            <li class="px-3"><a class="link-dark link-offset-1-hover link-underline-opacity-0" href="">Cancel an order</a></li>
+                            <li class="px-3"><a class="link-dark link-offset-1-hover link-underline-opacity-0" href="">Returns & Refunds</a></li>
+                            <div class="border border-secondary border-opacity-25"></div>
+                            <button class="dropBtn rounded-2 m-3">LIVE CHAT</button>
+                        </ul>
+                    </div>
+                    <a class="link-dark mx-3 link-offset-1-hover link-underline-opacity-0 d-flex align-items-center" href="#">
+                        <i class="fa-solid fa-cart-shopping"></i>
+                        <span class="mx-2">Cart</span>
+                    </a>
+                </div>
           </div>
         </div>
     </nav>
@@ -298,10 +336,10 @@
             <h5 class="p-2 px-3 text-center">Offers Not To Be Missed</h5>
             <div class="p-2 bg-light d-flex align-items-center justify-content-between">
                 <a href="">
-                    <img src="https://ng.jumia.is/cms/0-5-TechWeek/2024/Brand-days/TECNO/Desktop_Double_banner_572px_x250px-1.png" alt="">
+                    <img class="img-fluid" src="https://ng.jumia.is/cms/0-5-TechWeek/2024/Brand-days/TECNO/Desktop_Double_banner_572px_x250px-1.png" alt="">
                 </a>
                 <a href="">
-                    <img src="https://ng.jumia.is/cms/0-5-TechWeek/2024/Brand-partners/SunKing/572_x_250_sunking.png" alt="">
+                    <img class="img-fluid" src="https://ng.jumia.is/cms/0-5-TechWeek/2024/Brand-partners/SunKing/572_x_250_sunking.png" alt="">
                 </a>
             </div>
         </div>
@@ -616,7 +654,7 @@
 
         <div id="thirdSection" class="bg-light p-2 rounded-2">
             <a href="">
-                <img src="https://ng.jumia.is/cms/0-5-TechWeek/2024/generic/live/Desktop-Single-Banner--1152x252.gif" alt="">
+                <img class="img-fluid" src="https://ng.jumia.is/cms/0-5-TechWeek/2024/generic/live/Desktop-Single-Banner--1152x252.gif" alt="">
             </a>
         </div>
 
@@ -780,7 +818,7 @@
 
         <div id="sectionSeven" class="rounded-2">
             <h5 class="p-2 px-3 pt-3 text-center">Gamers Cave</h5>
-            <div class="bg-light px-2 pt-2 d-flex justify-content-evenly">
+            <div class="bg-light px-2 pt-2 d-flex justify-content-evenly flex-wrap">
                 <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
                     <a class="nav-link" href="">
                         <img src="https://ng.jumia.is/cms/0-5-TechWeek/2024/Category-Freelink/Gamers_Cave/Gaming_chair-1.jpg" class="card-img-top rounded-2 img-fluid" alt="">
@@ -1094,14 +1132,15 @@
 
         <div id="sectionTen" class="p-2 rounded-2 bg-light d-flex align-items-center justify-content-between">
             <a href="">
-                <img src="https://ng.jumia.is/cms/0-5-TechWeek/2024/Category-Freelink/0-1/572X250_Desktop_Double_banner.jpg" alt="">
+                <img class="img-fluid" src="https://ng.jumia.is/cms/0-5-TechWeek/2024/Category-Freelink/0-1/572X250_Desktop_Double_banner.jpg" alt="">
             </a>
             <a href="">
-                <img src="https://ng.jumia.is/cms/0-5-TechWeek/2024/Category-Freelink/0-1/572X250_Desktop_Double_banner_copy.jpg" alt="">
+                <img class="img-fluid" src="https://ng.jumia.is/cms/0-5-TechWeek/2024/Category-Freelink/0-1/572X250_Desktop_Double_banner_copy.jpg" alt="">
             </a>
         </div>
     </section>
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
-integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+<script src="script.js"></script>
 </html>
