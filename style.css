@@ -42,8 +42,8 @@ nav input{
 #searchBtn{
     background-color: #f68b1e;
 }
-section{
-    padding: 15px 45px;
+#section{
+    padding: 15px 45px !important;
     background-color: #b974df;
 }
 #firstSection{
@@ -219,4 +219,164 @@ ul{
 }
 #cardHover:hover{
     box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.208);
+}
+
+
+#marketplaceVendorSec{
+    background-color: #f5f5f5;
+    padding: 15px 45px !important;
+    cursor: default;
+}
+#divTwo p{
+    font-size: 14px;
+    font-weight: 600;
+}
+#divTwo span{
+    background-color: #C63232;
+    width: 16%;
+    color: white;
+    font-size: 13px;
+    padding: 15px 0;
+    border-radius: 3px;
+}
+#divThree p, #divFour p{
+    font-size: 13px;
+    font-weight: 600;
+}
+#divThree i{
+    font-size: 13px;
+    width: 39%;
+}
+#divFour button{
+    background-color: #f68b1e;
+    padding: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    border: none;
+    color: white;
+}
+#divFour h6{
+    font-size: 12.5px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.845);
+}
+#divFour span{
+    font-size: 13px;
+    line-height: 20px;
+}
+#divFour img{
+    width: 35%;
+    margin-bottom: 10px;
+}
+#divFour .img2{
+    width: 45%;
+}
+#footer1{
+    padding: 15px 45px;
+    background-color: #313133;
+    color: white;
+}
+#footerLogo{
+    width: 60%;
+}
+.footerDiv{
+    width: 50%;
+}
+#footerIcon{
+    width: 20%;
+    height: 12%;
+}
+#footer1 span, #footer2 span{
+    font-size: 12px;
+    font-weight: bold;
+}
+#footer1 small {
+    font-size: 12px;
+}
+#downloadIcon{
+    width: 20%;
+}
+footer button{
+    background-color: transparent;
+    line-height: 16px;
+    text-align: start;
+    padding: 5px;
+}
+#footer1 button div{
+    margin-left: 5px;
+}
+#footer1 button small{
+    font-size: 8px;
+}
+#footer1 button p{
+    font-size: 14px;
+}
+#footer1 input{
+    border: none;
+    outline: none;
+}
+#inputImg{
+    width: 13%;
+}
+#checkboxDiv{
+    line-height: 18px;
+}
+#checkboxDiv p{
+    font-size: 13px;
+    color: rgb(163, 163, 166);
+    width: 85%;
+}
+#checkboxDiv a{
+    font-size: 11px;
+    font-weight: 600;
+    color: #f68b1e;
+}
+#footer2{
+    background-color: #535357;
+    padding: 15px 45px;
+    color: white;
+}
+#footer2 span{
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+#footer2 a{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: lighter;
+    line-height: 22px;
+    width: fit-content;
+}
+#footer2 a:hover{
+    text-decoration: underline;
+}
+#footer2 img{
+    width: 8%;
+    margin-right: 15px;
+}
+#footer2 #btmImg{
+    width: 5%;
+    margin: 7px 0;
+}
+#vendorSignInSec img{
+    width: 80%;
+}
+#vendorSignInSec button{
+    background-color: #f68b1e;
+    color: white;
+    font-weight: 600;
+}
+#globalSale{
+    border: 1px solid #3653A3;
+    color: #3653A3;
+    font-weight: 500;
+}
+#globalSale img{
+    width: 5%;
+}
+#vendorSignInSec p {
+    font-size: 13px;
+    font-weight: 400;
 }

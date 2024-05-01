@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jumia-clone</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsiveness.css">
     <script src="https://kit.fontawesome.com/fab040517b.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -12,22 +13,25 @@
 <body>
     <nav id="topNav" class="d-flex align-items-center px-5">
         <div>
-            <a href="" class="mx-3 link-offset-1-hover link-underline-warning link-underline-opacity-0 link-underline-opacity-75-hover d-flex align-items-center"> <img class="me-1 img-fluid" src="jumia-icon-removebg-preview.png" alt=""> Sell on Jumia</a>
+            <a href="./marketplaceVendor.html" class="mx-3 link-offset-1-hover link-underline-warning link-underline-opacity-0 link-underline-opacity-75-hover d-flex align-items-center">
+                <img class="me-1 img-fluid" src="./images/jumia-icon-removebg-preview.png" alt="">
+                <span>Sell on Jumia</span>
+            </a>
         </div>
         <div id="payLogo" class="d-flex justify-content-center align-items-center">
-            <img class="mx-1 img-fluid" id="logoOne" src="jumia-logo-removebg-preview.png" alt="">
-            <img class="mx-1 img-fluid" id="logoTwo" src="jumia-pay-logo-removebg-preview.png" alt="">
+            <img class="mx-1 img-fluid" id="logoOne" src="./images/jumia-logo-removebg-preview.png" alt="">
+            <img class="mx-1 img-fluid" id="logoTwo" src="./images/jumia-pay-logo-removebg-preview.png" alt="">
         </div>
     </nav>
     <nav id="nav2" class="navbar navbar-expand-lg bg-body px-4 py-0">
         <div class="container-fluid d-flex align-items-center justify-content-around">
           <div>
-            <img id="logo" class="img-fluid" src="jumia-logo-removebg-preview.png" alt="">
+            <img id="logo" class="img-fluid" src="./images/jumia-logo-removebg-preview.png" alt="">
           </div>
           <div class="d-flex justify-content-between align-items-center w-75" id="navbarSupportedContent">
                 <div class="d-flex align-items-center">
                     <div class="border border-black border-opacity-25 p-2 d-flex align-items-center rounded-2 me-2">
-                        <img id="searchIcon" class="img-fluid" src="jumia-search-icon-removebg-preview.png" alt="">
+                        <img id="searchIcon" class="img-fluid" src="./images/jumia-search-icon-removebg-preview.png" alt="">
                         <input class="border border-0 w-100 bg-transparent mx-2" type="search" placeholder="Search products, brands and categories" aria-label="Search">
                     </div>
                     <button id="searchBtn" class="btn text-light" type="submit">SEARCH</button>
@@ -85,7 +89,7 @@
         </div>
     </nav>
 
-    <section>
+    <section id="section">
         <div class="d-flex align-items-center justify-content-between w-100" id="firstSection">
             <div class="bg-light rounded-2" id="firstSectionLeft">
                 <ul class="">
@@ -103,7 +107,7 @@
                     <li><a class="link-dark link-opacity-75 link-underline-opacity-0" href=""><i class="fa-solid fa-ellipsis"></i><span class="p-2">Other categories</span></a></li>
                 </ul>
             </div>
-            <div id="firstSectionDropDown" class="bg-light p-3 pb-0 d-flex justify-content-between rounded-end">
+            <!-- <div id="firstSectionDropDown" class="bg-light p-3 pb-0 d-flex justify-content-between rounded-end">
                     <div class="" style="width: 32%;">
                         <a class="nav-link" href=""><h6>FOOD CARDBOARD</h6></a>
                         <div id="line"></div>
@@ -149,7 +153,7 @@
                         <a class="nav-link" href="">Bottle Feeding</a>
                         <a class="nav-link" href="">Wipes & Refills</a>
                     </div>
-            </div>
+            </div> -->
             <div id="carouselExampleSlidesOnly" class="container-fluid carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="7000">
                 <div class="carousel-indicators">
                     <button id="carouselBtn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active rounded-circle" aria-current="true" aria-label="Slide 1"></button>
@@ -214,7 +218,7 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-center">
-                        <a class="d-flex align-items-center nav-link" href="">
+                        <a class="d-flex align-items-center nav-link" href="./vendorSign-inPage.html">
                             <i class="fa-solid fa-shop border border-warning p-2 rounded-circle"></i>
                             <p id="firstSectionRightP" class="m-0 mx-2">Sell on Jumia</p>
                         </a>
@@ -227,7 +231,7 @@
                 </div>
                 <div>
                     <a href="">
-                        <img class="img-fluid rounded-2" src="https://ng.jumia.is/cms/0-1-initiatives/jforce/2024/shop_earn.png" alt="">
+                        <img class="img-fluid rounded-2" src="./images/jumia-right-image.png" alt="">
                     </a>
                 </div>
             </div>
@@ -1138,9 +1142,150 @@
                 <img class="img-fluid" src="https://ng.jumia.is/cms/0-5-TechWeek/2024/Category-Freelink/0-1/572X250_Desktop_Double_banner_copy.jpg" alt="">
             </a>
         </div>
-    </section>
+    </section><footer id="footer1" class="d-flex justify-content-between">
+        <div class="w-25">
+            <img id="footerLogo" class="img-fluid" src="./images/jumia-footer-logo-removebg-preview.png" alt="">
+        </div>
+        <div class="footerDiv p-1">
+            <span>NEW TO JUMIA?</span> <br>
+            <small>Subscribe to our newsletter to get updates on our latest offers!</small>
+            <div class="d-flex align-items-center gap-2 mt-3">
+                <div class="bg-white d-flex align-items-center p-2 gap-2 rounded-1">
+                    <img id="inputImg" src="./images/Screenshot 2024-04-30 153931.png" alt="">
+                    <input class="rounded-2" type="email" name="" id="" placeholder="Enter E-mail Address">
+                </div>
+                <button class="btn text-light border border-white">MALE</button>
+                <button class="btn text-light border border-white">FEMALE</button>
+            </div>
+            <div id="checkboxDiv" class="mt-3">
+                <div class="d-flex align-items-start gap-2">
+                    <input class="mt-1" type="checkbox" name="" id="">
+                    <p class="m-0">I agree to Jumia’s Privacy and Cookie Policy. You can unsubscribe from newsletters at any time.</p>
+                </div>
+                <div>
+                    <a href="" class="mx-3 link-offset-1-hover link-underline-warning link-underline-opacity-0 link-underline-opacity-75-hover">I accept the Legal Terms</a>
+                </div>
+            </div>
+        </div>
+        <div class="w-25">
+            <div class="d-flex align-items-center gap-2">
+                <img id="footerIcon" class="img-fluid" src="./images/jumia-footer-icon-removebg-preview.png" alt="">
+                <div>
+                    <span>DOWNLOAD JUMIA FREE APP</span>
+                    <br>
+                    <small>Get access to exclusive offers!</small>
+                </div>
+            </div>
+            <div class="d-flex gap-2 mt-2">
+                <button class="text-light border border-white d-flex align-items-center rounded-1 p-1">
+                    <img id="downloadIcon" src="./images/icons8-apple-50.png" alt="">
+                    <div>
+                        <small>Download on the</small>
+                        <p class="m-0">App Store</p>
+                    </div>
+                </button>
+                <button class="text-light border border-white d-flex align-items-center rounded-1">
+                    <img id="downloadIcon" src="./images/icons8-google-play-50.png" alt="">
+                    <div>
+                        <small>GET IT ON</small>
+                        <p class="m-0">Google Play</p>
+                    </div>
+                </button>
+            </div>
+        </div>
+    </footer>
+    <footer id="footer2">
+        <div class="d-flex">
+            <div class="d-flex flex-column w-25">
+                <span>NEED HELP?</span>
+                <a href="">Chat with us</a>
+                <a href="">Help Center</a>
+                <a href="">Contact Us</a>
+                <span class="mt-3">USEFUL LINKS</span>
+                <a href="">Service Center</a>
+                <a href="">How to shop on Jumia?</a>
+                <a href="">Delivery options and timelines</a>
+                <a href="">How to return a product on Jumia?</a>
+                <a href="">Corporate and bulk purchases</a>
+                <a href="">Report a Product</a>
+                <a href="">Dispute Resolution Policy</a>
+                <a href="">Returns & Refund Timeline</a>
+                <a href="">Return Policy</a>
+            </div>
+            <div class="d-flex flex-column w-25">
+                <span>ABOUT JUMIA</span>
+                <a href="">About us</a>
+                <a href="">Jumia careers</a>
+                <a href="">Jumia Express</a>
+                <a href="">Terms and Conditions</a>
+                <a href="">Privacy Notice</a>
+                <a href="">Jumia Store Credit Terms & Conditions</a>
+                <a href="">Jumia Payment Information Guidelines</a>
+                <a href="">Cookie Notice</a>
+                <a href="">Jumia Global</a>
+                <a href="">Official Stores</a>
+                <a href="">Flash Sales</a>
+                <a href="">Tech Week 2024</a>
+            </div>
+            <div class="d-flex flex-column w-25">
+                <span>MAKE MONEY WITH JUMIA</span>
+                <a href="">Sell on Jumia</a>
+                <a href="">Vendor hub</a>
+                <a href="">Become a Sales Consultant</a>
+                <a href="">Become a Logistics Service Partner</a>
+                <a href="">Join the Jumia DA Academy</a>
+                <a href="">Join the Jumia KOL Program</a>
+            </div>
+            <div class="w-25">
+                <span>JUMIA INTERNATIONAL</span>
+                <div class=" d-flex gap-4">
+                    <div class="d-flex flex-column">
+                        <a href="">Algeria</a>
+                        <a href="">Egypt</a>
+                        <a href="">Ghana</a>
+                        <a href="">Ivory Coast</a>
+                        <a href="">Kenya</a>
+                    </div>
+                    <div class="d-flex flex-column">
+                        <a href="">Morocco</a>
+                        <a href="">Senegal</a>
+                        <a href="">Tunisia</a>
+                        <a href="">Uganda</a>
+                        <a href="">Zando</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="d-flex my-5">
+            <div class="w-25">
+                <span>JOIN US ON</span>
+                <div class="mt-3">
+                    <a href=""><img src="./images/icons8-facebook-30.png" alt=""></a>
+                    <a href=""><img src="./images/icons8-youtube-30.png" alt=""></a>
+                    <a href=""><img src="./images/icons8-instagram-old-30.png" alt=""></a>
+                    <a href=""><img src="./images/icons8-twitter-30.png" alt=""></a>
+                </div>
+            </div>
+            <div>
+                <span>PAYMENT METHODS & DELIVERY PARTNERS</span>
+                <div class="mt-3">
+                    <a href=""><img src="./images/Screenshot 2024-04-30 171708.png" alt=""></a>
+                    <a href=""><img src="./images/Screenshot 2024-04-30 171730.png" alt=""></a>
+                    <a href=""><img src="./images/Screenshot 2024-04-30 171752.png" alt=""></a>
+                    <a href=""><img src="./images/Screenshot 2024-04-30 172231.png" alt=""></a>
+                    <a href=""><img src="./images/Screenshot 2024-04-30 171831.png" alt=""></a>
+                    <a href=""><img src="./images/Screenshot 2024-04-30 171840.png" alt=""></a>
+                    <a href=""><img src="./images/Screenshot 2024-04-30 171849.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <div class="border border-secondary"></div>
+        <div class="d-flex justify-content-center">
+            <img id="btmImg" src="./images/Screenshot 2024-04-30 173030.png" alt="">
+        </div>
+    </footer>
 </body>
-<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
-integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script src="script.js"></script>
 </html>
