@@ -44,7 +44,7 @@ nav input{
 }
 #section{
     padding: 15px 45px !important;
-    background-color: #b974df;
+    background-color: #209C6C;
 }
 #firstSection{
     margin-bottom: 15px;
@@ -167,7 +167,11 @@ ul{
 #sectionFour{
     margin-bottom: 15px;
 }
-#sectionFourDiv, #sectionFiveDiv, #sectionSixDiv, #sectionEightDiv{
+#sectionFourDiv{
+    max-width: 100%;
+    padding: 5px;
+}
+#sectionFiveDiv, #sectionSixDiv, #sectionEightDiv{
     overflow-x: scroll !important;
     max-width: 100%;
     padding: 5px;
@@ -200,16 +204,12 @@ ul{
     text-decoration: line-through;
     text-decoration-color: rgba(49, 49, 51, 0.605);
 }
-#sectionFive, #sectionSix, #sectionEight{
+#sectionFive, #sectionSix, #sectionSeven, #sectionEight, #sectionNine{
     margin-bottom: 15px;
-    background-color: rgb(170, 222, 241);
+    background-color: #FFC108;
 }
 #seeAllLink{
     font-size: 14px;
-}
-#sectionSeven, #sectionNine{
-    margin-bottom: 15px;
-    background-color: rgb(170, 222, 241);
 }
 #sectionSeven #img-1, #sectionNine #img-1{
     width: 15%;
@@ -220,8 +220,6 @@ ul{
 #cardHover:hover{
     box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.208);
 }
-
-
 #marketplaceVendorSec{
     background-color: #f5f5f5;
     padding: 15px 45px !important;
@@ -360,8 +358,28 @@ footer button{
     width: 5%;
     margin: 7px 0;
 }
+#vendorSignInSec{
+    margin-top: 25vh;
+}
 #vendorSignInSec img{
     width: 80%;
+}
+#vendorSignInSec #column div{
+    background-color: #f68b1e;
+}
+#col2, #col3, #col4{
+    background-color: #f68a1e57 !important;
+}
+#vendorSignInSec .straightCol{
+    padding: 2px;
+    width: 21%;
+}
+#vendorSignInSec .rounded-circle{
+    padding: 10px;
+}
+#vendorSignInSec h3{
+    font-size: 22px;
+    margin-top: 15px;
 }
 #vendorSignInSec button{
     background-color: #f68b1e;
@@ -372,6 +390,7 @@ footer button{
     border: 1px solid #3653A3;
     color: #3653A3;
     font-weight: 500;
+    cursor: pointer;
 }
 #globalSale img{
     width: 5%;
@@ -379,4 +398,175 @@ footer button{
 #vendorSignInSec p {
     font-size: 13px;
     font-weight: 400;
+    color: rgba(0, 0, 0, 0.6);
+}
+#signIn h6{
+    font-size: 17px;
+}
+#signIn a{
+    color: #f68b1e;
+    text-decoration: none;
+    font-weight: 600;
+}
+#cartSec, #descriptionSec{
+    background-color: #F1F1F2;
+    padding: 15px 45px !important;
+}
+#cartDiv{
+    height: 57vh;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+#cartDiv button{
+    background-color: #f68b1e;
+    color: white;
+    padding: 12px;
+    font-weight: 600;
+    font-size: 14px;
+}
+#cartSec #cartTop img{
+    width: 10%;
+}
+#cartSec #productDetails small{
+    font-size: 12px;
+    color: gray;
+}
+#cartSec #productDetails b{
+    font-size: 20px;
+    font-weight: 600;
+}
+#cartSec #productDetails span{
+    font-size: 17px;
+    color: gray;
+    text-decoration: line-through;
+}
+#cartSec #cartTop button{
+    background-color: transparent;
+    color: #f68b1e;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+#cartSec #cartTop button img{
+    width: 25%;
+}
+#cartSec #cartTop #quantity #minus{
+    background-color: #FAC58E;
+    width: 27%;
+}
+#cartSec #cartTop #quantity #plus{
+    background-color: #f68b1e;
+    width: 27%;
+}
+#cartSec #checkoutDiv{
+    height: fit-content;
+    position: sticky !important;
+    top: 15vh;
+}
+#cartSec #checkoutDiv p{
+    font-size: 14px;
+    font-weight: 600;
+}
+#cartSec #checkoutDiv b{
+    font-size: 20px;
+    font-weight: 600;
+}
+#cartSec #checkoutDiv button{
+    font-size: 14px;
+    font-weight: 600;
+    background-color: #f68b1e;
+    border: none;
+    color: white;
+    padding: 10px 0;
+}
+#descriptionSec #topLeftDiv h1{
+    font-size: 20px;
+    font-weight: normal;
+}
+#descriptionSec #topLeftDiv #boldPrice{
+    font-size: 24px;
+}
+#descriptionSec #topLeftDiv #boldPrice span{
+    font-size: 15px;
+    color: rgba(49, 49, 51, 0.605);
+    text-decoration: line-through;
+    text-decoration-color: rgba(49, 49, 51, 0.605);
+}
+#descriptionSec #topLeftDiv #btnDiv button{
+    background-color: #f68b1e;
+    border: none !important;
+}
+#descriptionSec #topLeftDiv #btnDiv img{
+    width: 8%;
+}
+#descriptionSec #topLeftDiv #btnDiv span{
+    text-decoration: none;
+    color: white;
+    margin: 0 170px;
+    font-weight: 600;
+}
+#descriptionSec #topLeftDiv #quantity img{
+    background-color: #f68b1e;
+    width: 6%;
+    cursor: pointer;
+}
+#descriptionSec #topLeftDiv #quantity span{
+    font-size: 14px;
+}
+#descriptionSec #topLeftDiv small{
+    font-size: 12px;
+}
+#descriptionSec #topLeftDiv a{
+    color: #264996;
+    text-decoration: none;
+    font-size: 14px;
+}
+#descriptionSec #topLeftDiv a img{
+    width: 4%;
+}
+#descriptionSec #topLeftDiv a:hover{
+    text-decoration: underline;
+}
+#descriptionSec #topLeftDiv p{
+    font-size: 14px;
+    font-weight: 600;
+}
+#descriptionSec #topLeftDiv #shareProduct img{
+    width: 10%;
+    cursor: pointer;
+}
+#descriptionSec .align-self{
+    margin-top: 100px;
+}
+#descriptionSec #topRightDiv h5{
+    font-size: 14px;
+}
+#descriptionSec #topRightDiv small{
+    font-size: 12px;
+}
+#descriptionSec #topRightDiv a{
+    color: #264996;
+    text-decoration: none;
+    font-size: 14px;
+}
+#descriptionSec #topRightDiv a img{
+    width: 4%;
+}
+#descriptionSec #topRightDiv a:hover{
+    text-decoration: underline;
+}
+#descriptionSec #topRightDiv h4{
+    font-size: 17px;
+}
+#descriptionSec #topRightDiv input{
+    outline: none;
+}
+#descriptionSec #topRightDiv img{
+    width: 18%;
+}
+#descriptionSec #topRightDiv b{
+    font-weight: 600;
+}
+#descriptionSec #topRightDiv #delivery a{
+    font-size: 12px;
 }

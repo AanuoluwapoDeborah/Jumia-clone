@@ -12,3 +12,10 @@ button2.addEventListener('click', () => {
     navDropDown.classList.remove('active');
     navDropDown2.classList.toggle('active');
 });
+
+
+
+const products = {
+    id: 0,
+    
+}
