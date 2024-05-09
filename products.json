@@ -1,0 +1,264 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "title": "Men's Palm Sandals PU Leather Shoes Comfortable Soft Sole Casual Black",
+            "brand": "PU",
+            "discountedPrice": "₦ 15,760",
+            "initialPrice": "₦ 18,900",
+            "image": "./images/sec4 one.jpg"
+        },
+        {
+            "id": 2,
+            "title": "Itel 20000mAh Power Bank Dual Output & Input Fast Charging",
+            "brand": "Itel",
+            "discountedPrice": "₦ 19,900",
+            "initialPrice": "₦ 25,000",
+            "image": "./images/sec4 two.jpg"
+        },
+        {
+            "id": 3,
+            "title": "Ace Elec Power Banks 20000 MAh Utra Slim Portable Fast Charger (ACE ELEC)",
+            "brand": "Ace Elec",
+            "discountedPrice": "₦ 19,999",
+            "initialPrice": "₦ 30,000",
+            "image": "./images/sec4 three.jpg"
+        },
+        {
+            "id": 4,
+            "title": "Sun King Home 200X Plus Solar Light System - Yellow",
+            "brand": "Sun King",
+            "discountedPrice": "₦ 101,645",
+            "initialPrice": "₦ 111,300",
+            "image": "./images/sec4 four.jpg"
+        },
+        {
+            "id": 5,
+            "title": "T-shirt 100% Cotton 4 Pcs Shirts Men's Fashion Short Sleeve",
+            "brand": "T-shirt",
+            "discountedPrice": "₦ 16,000",
+            "initialPrice": "₦ 18,500",
+            "image": "./images/sec4 six.jpg"
+        },
+        {
+            "id": 6,
+            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
+            "brand": "SUMEC FIRMAN",
+            "discountedPrice": "₦ 272,855",
+            "initialPrice": "₦ 377,050",
+            "image": "./images/sec5 one.jpg"
+        },
+        {
+            "id": 7,
+            "title": "Infinix Smart 8 Plus 6.6 inches 4GB RAM/128GB ROM Android 14 - Gold",
+            "brand": "Infinix",
+            "discountedPrice": "₦ 125,999",
+            "initialPrice": "₦ 300,000",
+            "image": "./images/sec5 two.jpg"
+        },
+        {
+            "id": 8,
+            "title": "itel PowerLite+ 20000mAh 15W Power Bank.",
+            "brand": "itel",
+            "discountedPrice": "₦ 22,750",
+            "initialPrice": "₦ 69,000",
+            "image": "./images/sec5 three.jpg"
+        },
+        {
+            "id": 9,
+            "title": "Hp Refurbished HP EliteBook 840G1 14 inches Intel I5 4th Gen, 8-500GB",
+            "brand": "Hp",
+            "discountedPrice": "₦ 279,422",
+            "image": "./images/sec5 four.jpg"
+        },
+        {
+            "id": 10,
+            "title": "Eaget Pen Flash Drive 3.0 64GB - Metal OTG Micro USB Type-C",
+            "brand": "Eaget",
+            "discountedPrice": "₦ 5,499",
+            "initialPrice": "₦ 6,199",
+            "image": "./images/sec5 five.jpg"
+        },
+        {
+            "id": 11,
+            "title": "itel 32 Inches LED TV (A3250) + 1 year Warranty",
+            "brand": "itel",
+            "discountedPrice": "₦ 78,599",
+            "initialPrice": "₦ 80,000",
+            "image": "./images/sec5 six.jpg"
+        },
+        {
+            "id": 12,
+            "title": "Sun King Home 40 Plus Solar Home Light System - Yellow",
+            "brand": "Sun King",
+            "discountedPrice": "₦ 52,272",
+            "initialPrice": "₦ 52,800",
+            "image": "./images/sec5 seven.jpg"
+        },
+        {
+            "id": 13,
+            "title": "DIY Wall Clocks 3D Mirror Stickers Large Wall Clock -Black",
+            "brand": "DIY",
+            "discountedPrice": "₦ 3,470",
+            "initialPrice": "₦ 6,600",
+            "image": "./images/sec5 eight.jpg"
+        },
+        {
+            "id": 14,
+            "title": "PS5 Controller Charger DualSense Charging Dock Station PS5 Dual USB Handle Fast 5V",
+            "brand": "PS5",
+            "discountedPrice": "₦ 35,000",
+            "image": "./images/sec5 ten.jpg"
+        },
+        {
+            "id": 15,
+            "title": "Ace Elec F9 Wireless Fingerprint Touch Bluetooth Headset",
+            "brand": "Ace Elec",
+            "discountedPrice": "₦ 13,000",
+            "initialPrice": "₦ 18,000",
+            "image": "./images/sec5 eleven.jpg"
+        },
+        {
+            "id": 16,
+            "title": "Midea 173 Litres Double Door Refrigerator (HD 216F)- Black",
+            "brand": "Midea",
+            "discountedPrice": "₦ 385,500",
+            "initialPrice": "₦ 480,000",
+            "image": "./images/sec5 twelve.jpg"
+        },
+        {
+            "id": 17,
+            "title": "Tecno Spark 20 (KJ5) 6.6 inches 8GB RAM/256GB ROM Android 13 - Blue",
+            "brand": "Tecno",
+            "discountedPrice": "₦ 231,345",
+            "image": "./images/sec5 thirteen.jpg"
+        },
+        {
+            "id": 18,
+            "title": "Royal 43 Inches LED TV (RTV43F7J) + 1 Year Warranty",
+            "brand": "Royal",
+            "discountedPrice": "₦ 229,674",
+            "image": "./images/sec5 fourteen.jpg"
+        },
+        {
+            "id": 19,
+            "title": "Sumec FIRMAN 3.0KVA Key Start Generator - SPG4000E2",
+            "brand": "Sumec",
+            "discountedPrice": "₦ 387,805",
+            "initialPrice": "₦ 520,050",
+            "image": "./images/sec6 1.jpg"
+        },
+        {
+            "id": 20,
+            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
+            "brand": "SUMEC FIRMAN",
+            "discountedPrice": "₦ 314,800",
+            "initialPrice": "₦ 350,000",
+            "image": "./images/sec6 2.jpg"
+        },
+        {
+            "id": 21,
+            "title": "SUMEC FIRMAN Tigmax 2.0kva Manual Generator- TG5800",
+            "brand": "SUMEC FIRMAN",
+            "discountedPrice": "₦ 260,755",
+            "initialPrice": "₦ 290,755",
+            "image": "./images/sec6 3.jpg"
+        },
+        {
+            "id": 22,
+            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
+            "brand": "Sumec",
+            "discountedPrice": "₦ 314,800",
+            "initialPrice": "₦ 350,000",
+            "image": "./images/sec6 4.jpg"
+        },
+        {
+            "id": 23,
+            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
+            "brand": "Sumec",
+            "discountedPrice": "₦ 314,800",
+            "initialPrice": "₦ 350,000",
+            "image": "./images/sec6 5.jpg"
+        },
+        {
+            "id": 24,
+            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
+            "brand": "Sumec",
+            "discountedPrice": "₦ 314,800",
+            "initialPrice": "₦ 350,000",
+            "image": "./images/sec6 6.jpg"
+        },
+        {
+            "id": 25,
+            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
+            "brand": "Sumec",
+            "discountedPrice": "₦ 314,800",
+            "initialPrice": "₦ 350,000",
+            "image": "./images/sec6 7.jpg"
+        },
+        {
+            "id": 26,
+            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
+            "brand": "Sumec",
+            "discountedPrice": "₦ 314,800",
+            "initialPrice": "₦ 350,000",
+            "image": "./images/sec6 8.jpg"
+        },
+        {
+            "id": 27,
+            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
+            "brand": "Sumec",
+            "discountedPrice": "₦ 314,800",
+            "initialPrice": "₦ 350,000",
+            "image": "./images/sec6 9.jpg"
+        },
+        {
+            "id": 28,
+            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
+            "brand": "Sumec",
+            "discountedPrice": "₦ 314,800",
+            "initialPrice": "₦ 350,000",
+            "image": "./images/sec6 10.jpg"
+        },
+        {
+            "id": 29,
+            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
+            "brand": "Sumec",
+            "discountedPrice": "₦ 314,800",
+            "initialPrice": "₦ 350,000",
+            "image": "./images/sec6 11.jpg"
+        },
+        {
+            "id": 30,
+            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
+            "brand": "Sumec",
+            "discountedPrice": "₦ 314,800",
+            "initialPrice": "₦ 350,000",
+            "image": "./images/sec6 12.jpg"
+        },
+        {
+            "id": 31,
+            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
+            "brand": "Sumec",
+            "discountedPrice": "₦ 314,800",
+            "initialPrice": "₦ 350,000",
+            "image": "./images/sec6 13.jpg"
+        },
+        {
+            "id": 32,
+            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
+            "brand": "Sumec",
+            "discountedPrice": "₦ 314,800",
+            "initialPrice": "₦ 350,000",
+            "image": "./images/sec6 14.jpg"
+        },
+        {
+            "id": 33,
+            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
+            "brand": "Sumec",
+            "discountedPrice": "₦ 314,800",
+            "initialPrice": "₦ 350,000",
+            "image": "./images/sec6 15.jpg"
+        }
+    ]
+}

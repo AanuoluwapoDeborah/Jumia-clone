@@ -25,6 +25,9 @@
     position: sticky;
     top: 0;
 }
+#nav3{
+    display: none !important;
+}
 #logo{
     width: 45%;
 }
@@ -41,18 +44,6 @@ nav input{
 }
 #searchBtn{
     background-color: #f68b1e;
-}
-#section{
-    padding: 15px 45px !important;
-    background-color: #209C6C;
-}
-#firstSection{
-    margin-bottom: 15px;
-}
-ul{
-    list-style: none;
-    margin: 0 !important;
-    padding: 0 10px !important;
 }
 .dropDownDiv{
     width: 38%;
@@ -94,10 +85,23 @@ ul{
     color: white;
     width: 85%;
 }
+#section{
+    padding: 15px 45px !important;
+    background-color: #6AC1D5;
+}
+#firstSection{
+    margin-bottom: 15px;
+    /* height: fit-content; */
+}
 #firstSectionLeft{
     width: 27%;
     font-size: 13px;
     line-height: 32px;
+}
+ul{
+    list-style: none;
+    margin: 0 !important;
+    padding: 0 10px !important;
 }
 #firstSectionLeft a :hover{
     color: #f68b1e;
@@ -134,7 +138,7 @@ ul{
     height: 1.2vh;
 }
 #firstSectionRight{
-    height: 65.5vh;
+    height: fit-content;
     width: 30%;
 }
 #firstSectionRightTop{
@@ -151,70 +155,65 @@ ul{
 #firstSectionRight img{
     width: 100%;
 }
-#secondSection{
+#secondSection, #sectionSeven, #sectionNine{
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+#secondSection #cardHover, #sectionSeven #cardHover, #sectionNine #cardHover{
+    width: 16.5%;
+    margin-bottom: 5px;
+}
+#sectionThree, #sectionTen{
     margin-bottom: 15px;
 }
-#secondSection #img-1{
-    width: 15%;
+#sectionThree #seeAllLink{
+    color: #f68b1e;
 }
-#thirdSection, #sectionTen{
-    margin-bottom: 15px;
-    background-color: rgb(170, 222, 241);
-}
-/* #thirdSection img:hover, #sectionTen img:hover{
-    box-shadow: 0.5px 0.5px 10px rgba(0, 0, 0, 0.208);
-} */
-#sectionFour{
-    margin-bottom: 15px;
-}
-#sectionFourDiv{
+#sectionThreeDiv{
     max-width: 100%;
     padding: 5px;
 }
-#sectionFiveDiv, #sectionSixDiv, #sectionEightDiv{
+#sectionFour, #sectionFive, #sectionSix, #sectionSeven, #sectionEight, #sectionNine{
+    margin-bottom: 15px;
+    background-color: #AADEF1;
+}
+#sectionFourDiv, #sectionSixDiv, #sectionEightDiv{
     overflow-x: scroll !important;
     max-width: 100%;
     padding: 5px;
 }
-#sectionFour #seeAllLink{
-    color: #f68b1e;
-}
-.sectionFourDivs, .sectionFiveDivs, .sectionSixDivs, .sectionEightDivs{
+.sectionThreeDivs, .sectionFourDivs, .sectionSixDivs, .sectionEightDivs{
     margin-right: 5px;
     min-width: 11.5rem !important;
 }
-.sectionFourDivs .details, .sectionFiveDivs .details, .sectionSixDivs .details, .sectionEightDivs .details{
+.sectionThreeDivs .details, .sectionFourDivs .details, .sectionSixDivs .details, .sectionEightDivs .details{
     padding-bottom: 0;
     padding: 8px;
     color: rgb(49, 49, 51);
     line-height: 20px;
 }
-#sectionFour p, #sectionFive p, #sectionSix p, #sectionEight p{
+#sectionThree p, #sectionFour p, #sectionSix p, #sectionEight p{
     font-size: 14px;
     font-weight: 400;
     margin: 0;
 }
-#sectionFour b, #sectionFive b, #sectionSix b, #sectionEight b{
+#sectionThree b, #sectionFour b, #sectionSix b, #sectionEight b{
     font-size: 16px;
     font-weight: 500;
 }
-#sectionFour span, #sectionFive span, #sectionSix span, #sectionEight span{
+#sectionThree span, #sectionFour span, #sectionSix span, #sectionEight span{
     font-size: 12px;
     color: rgba(49, 49, 51, 0.605);
     text-decoration: line-through;
     text-decoration-color: rgba(49, 49, 51, 0.605);
 }
-#sectionFive, #sectionSix, #sectionSeven, #sectionEight, #sectionNine{
-    margin-bottom: 15px;
-    background-color: #FFC108;
-}
-#seeAllLink{
+#sectionFive p{
     font-size: 14px;
 }
-#sectionSeven #img-1, #sectionNine #img-1{
-    width: 15%;
+#sectionFive a{
+    width: 33%;
 }
-#sectionSeven p, #sectionNine p{
+#seeAllLink{
     font-size: 14px;
 }
 #cardHover:hover{
@@ -440,12 +439,18 @@ footer button{
     color: gray;
     text-decoration: line-through;
 }
+#cartSec #cartTop{
+    cursor: pointer;
+}
 #cartSec #cartTop button{
     background-color: transparent;
     color: #f68b1e;
     border: none;
     font-size: 14px;
     font-weight: 600;
+}
+#cartSec #cartTop button:hover{
+    background-color: #FCDBB9;
 }
 #cartSec #cartTop button img{
     width: 25%;
@@ -492,18 +497,23 @@ footer button{
     text-decoration: line-through;
     text-decoration-color: rgba(49, 49, 51, 0.605);
 }
-#descriptionSec #topLeftDiv #btnDiv button{
+#descriptionSec #topLeftDiv button{
     background-color: #f68b1e;
     border: none !important;
+    width: 100%;
+    color: white;
 }
-#descriptionSec #topLeftDiv #btnDiv img{
+#descriptionSec #topLeftDiv button img{
     width: 8%;
 }
-#descriptionSec #topLeftDiv #btnDiv span{
+#descriptionSec #topLeftDiv button span{
     text-decoration: none;
     color: white;
-    margin: 0 170px;
     font-weight: 600;
+    font-size: 14px;
+}
+#descriptionSec #topLeftDiv #quantity{
+    display: none ;
 }
 #descriptionSec #topLeftDiv #quantity img{
     background-color: #f68b1e;
@@ -514,7 +524,7 @@ footer button{
     font-size: 14px;
 }
 #descriptionSec #topLeftDiv small{
-    font-size: 12px;
+    font-size: 13px;
 }
 #descriptionSec #topLeftDiv a{
     color: #264996;

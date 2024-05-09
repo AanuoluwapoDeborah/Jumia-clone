@@ -1,6 +1,35 @@
 #section{
-    padding: 0;
+    padding: 10px !important;
 }
 #marketplaceVendorSec{
     padding: 0;
+}
+#firstSectionLeft{
+    display: none !important;
+}
+#firstSectionRight{
+    display: none !important;
+}
+#secondSection #cardHover{
+    width: 25%;
+}
+#sectionSeven #cardHover, #sectionNine #cardHover{
+    width: 33%;
+}
+#nav2{
+    display: none;
+}
+#nav3{
+    display: block !important;
+    position: sticky;
+    top: 0;
+}
+#logoDiv img{
+    width: 45%;
+}
+#sectionThreeDiv{
+    overflow-x: scroll !important;
+}
+#footer1, #footer2{
+    display: none !important;
 }

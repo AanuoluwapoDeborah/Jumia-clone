@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jumia-clone</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsiveness.css" media="max-width: 600px">
+    <link rel="stylesheet" href="responsiveness.css" media="(max-width: 1200px)">
     <script src="https://kit.fontawesome.com/fab040517b.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -88,9 +88,23 @@
           </div>
         </div>
     </nav>
-
+    <nav id="nav3" class="navbar navbar-expand-lg bg-body px-2 py-0 d-flex flex-column">
+        <div class="d-flex align-items-center justify-content-between px-3">
+            <div id="logoDiv">
+                <img class="img-fluid" src="./images/jumia-logo-removebg-preview.png" alt="">
+            </div>
+            <div class="d-flex gap-4">
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+        <div class="border border-black border-opacity-75 p-2 d-flex align-items-center rounded-5 my-2">
+            <img id="searchIcon" class="img-fluid" src="./images/jumia-search-icon-removebg-preview.png" alt="">
+            <input class="border border-0 w-100 bg-transparent mx-2" type="search" placeholder="Search products, brands and categories" aria-label="Search">
+        </div>
+    </nav>
     <section id="section">
-        <div class="d-flex align-items-center justify-content-between w-100" id="firstSection">
+    <div class="d-flex align-items-center justify-content-between gap-4 w-100" id="firstSection">
             <div class="bg-white rounded-2" id="firstSectionLeft">
                 <ul class="">
                     <li id="supermarket"><a class="link-dark link-opacity-75 link-underline-opacity-0" href=""><i class="fa-solid fa-apple-whole"></i><span class="p-2">Supermarket</span></a></li>
@@ -154,7 +168,7 @@
                         <a class="nav-link" href="">Wipes & Refills</a>
                     </div>
             </div> -->
-            <div id="carouselExampleSlidesOnly" class="container-fluid carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="7000">
+            <div id="carouselExampleSlidesOnly" class="container-fluid carousel slide carousel-fade p-0" data-bs-ride="carousel" data-bs-interval="7000">
                 <div class="carousel-indicators">
                     <button id="carouselBtn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active rounded-circle" aria-current="true" aria-label="Slide 1"></button>
                     <button id="carouselBtn" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="rounded-circle" aria-label="Slide 2"></button>
@@ -167,42 +181,42 @@
                 <div class="carousel-inner">
                   <div class="carousel-item active">
                     <a href="">
-                        <img src="./images/carousel 1.jpg" class="img-fluid rounded-2" alt="">
+                        <img src="./images/carousel 1.jpg" class="img-fluid rounded-2 w-100" alt="">
                     </a>
                   </div>
                   <div class="carousel-item">
                     <a href="">
-                        <img src="./images/carousel 2.jpg" class="img-fluid rounded-2" alt="">
+                        <img src="./images/carousel 2.jpg" class="img-fluid rounded-2 w-100" alt="">
                     </a>
                   </div>
                   <div class="carousel-item">
                     <a href="">
-                        <img src="./images/carousel 3.jpg" class="img-fluid rounded-2" alt="">
+                        <img src="./images/carousel 3.jpg" class="img-fluid rounded-2 w-100" alt="">
                     </a>
                   </div>
                   <div class="carousel-item">
                     <a href="">
-                        <img src="./images/carousel 4.jpg" class="img-fluid rounded-2" alt="">
+                        <img src="./images/carousel 4.jpg" class="img-fluid rounded-2 w-100" alt="">
                     </a>
                   </div>
                   <div class="carousel-item">
                     <a href="">
-                        <img src="./images/carousel 5.jpg" class="img-fluid rounded-2" alt="">
+                        <img src="./images/carousel 5.jpg" class="img-fluid rounded-2 w-100" alt="">
                     </a>
                   </div>
                   <div class="carousel-item">
                     <a href="">
-                        <img src="./images/carousel 6.jpg" class="img-fluid rounded-2" alt="">
+                        <img src="./images/carousel 6.jpg" class="img-fluid rounded-2 w-100" alt="">
                     </a>
                   </div>
                   <div class="carousel-item">
                     <a href="">
-                        <img src="./images/carousel 7.jpg" class="img-fluid rounded-2" alt="">
+                        <img src="./images/carousel 7.jpg" class="img-fluid rounded-2 w-100" alt="">
                     </a>
                   </div>
                 </div>
             </div>
-            <div id="firstSectionRight" class="d-flex flex-column justify-content-between">
+            <div id="firstSectionRight" class="d-flex flex-column gap-4">
                 <div id="firstSectionRightTop" class="bg-white rounded-2">
                     <div class="d-flex align-items-center">
                         <i class="fa-solid fa-phone border border-warning p-2 rounded-circle"></i>
@@ -232,112 +246,112 @@
         </div>
 
         <div id="secondSection" class="bg-white p-2 d-flex flex-wrap justify-content-evenly rounded-2">
-            <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+            <div class="card border border-0 p-1" id="cardHover">
                 <a class="nav-link" href="">
                     <img src="./images/sec2 one.png" class="card-img-top rounded-2 img-fluid" alt="">
-                    <div class="card-body">
+                    <div class="card-body p-0 py-1">
                         <p class="card-text text-center">Clearance Sale</p>
                     </div>
                 </a>
             </div>
-            <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+            <div class="card border border-0 p-1" id="cardHover">
                 <a class="nav-link" href="">
                     <img src="./images/sec2 two.png" class="card-img-top rounded-2 img-fluid" alt="">
-                    <div class="card-body">
-                    <p class="card-text text-center">Best Deals</p>
+                    <div class="card-body p-0 py-1">
+                        <p class="card-text text-center">Best Deals</p>
                     </div>
                 </a>
             </div>
-            <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+            <div class="card border border-0 p-1" id="cardHover">
                 <a class="nav-link" href="">
                     <img src="./images/sec2 three.png" class="card-img-top rounded-2 img-fluid" alt="">
-                    <div class="card-body">
-                    <p class="card-text text-center">Phones & Tablets</p>
+                    <div class="card-body p-0 py-1">
+                        <p class="card-text text-center">Phones & Tablets</p>
                     </div>
                 </a>
             </div>
-            <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
-                <a class="nav-link" href="">
-                    <img src="./images/sec2 four.png" class="card-img-top rounded-2 img-fluid" alt="">
-                    <div class="card-body">
-                    <p class="card-text text-center">Men's Sneakers</p>
-                    </div>
-                </a>
-            </div>
-            <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+            <div class="card border border-0 p-1" id="cardHover">
                 <a class="nav-link" href="">
                     <img src="./images/sec2 five.png" class="card-img-top rounded-2 img-fluid" alt="">
-                    <div class="card-body">
-                    <p class="card-text text-center">Televisions</p>
+                    <div class="card-body p-0 py-1">
+                        <p class="card-text text-center">Men's Sneakers</p>
                     </div>
                 </a>
             </div>
-            <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+            <div class="card border border-0 p-1" id="cardHover">
+                <a class="nav-link" href="">
+                    <img src="./images/sec2 four.png" class="card-img-top rounded-2 img-fluid" alt="">
+                    <div class="card-body p-0 py-1">
+                        <p class="card-text text-center">Televisions</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card border border-0 p-1" id="cardHover">
                 <a class="nav-link" href="">
                     <img src="./images/sec2 six.png" class="card-img-top rounded-2 img-fluid" alt="">
-                    <div class="card-body">
-                    <p class="card-text text-center">Refrigerators</p>
+                    <div class="card-body p-0 py-1">
+                        <p class="card-text text-center">Refrigerators</p>
                     </div>
                 </a>
             </div>
-            <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+            <div class="card border border-0 p-1" id="cardHover">
                 <a class="nav-link" href="">
-                    <img src="./images/sec2 seven.png" class="card-img-top rounded-2 img-fluid" alt="">
-                    <div class="card-body">
+                    <img src="./images/sec2 ten.png" class="card-img-top rounded-2 img-fluid" alt="">
+                        <div class="card-body p-0 py-1">
                     <p class="card-text text-center">Generators</p>
                     </div>
                 </a>
             </div>
-            <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
-                <a class="nav-link" href="">
-                    <img src="./images/sec2 eight.png" class="card-img-top rounded-2 img-fluid" alt="">
-                    <div class="card-body">
-                    <p class="card-text text-center">Mobile Accessories</p>
-                    </div>
-                </a>
-            </div>
-            <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+            <div class="card border border-0 p-1" id="cardHover">
                 <a class="nav-link" href="">
                     <img src="./images/sec2 nine.png" class="card-img-top rounded-2 img-fluid" alt="">
-                    <div class="card-body">
-                    <p class="card-text text-center">Computing Deals</p>
+                    <div class="card-body p-0 py-1">
+                        <p class="card-text text-center">Mobile Accessories</p>
                     </div>
                 </a>
             </div>
-            <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+            <div class="card border border-0 p-1" id="cardHover">
                 <a class="nav-link" href="">
-                    <img src="./images/sec2 ten.png" class="card-img-top rounded-2 img-fluid" alt="">
-                    <div class="card-body">
-                    <p class="card-text text-center">Groceries</p>
+                    <img src="./images/sec2 eight.png" class="card-img-top rounded-2 img-fluid" alt="">
+                    <div class="card-body p-0 py-1">
+                        <p class="card-text text-center">Computing Deals</p>
                     </div>
                 </a>
             </div>
-            <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+            <div class="card border border-0 p-1" id="cardHover">
+                <a class="nav-link" href="">
+                    <img src="./images/sec2 seven.png" class="card-img-top rounded-2 img-fluid" alt="">
+                    <div class="card-body p-0 py-1">
+                        <p class="card-text text-center">Groceries</p>
+                    </div>
+                </a>
+            </div>
+            <div class="card border border-0 p-1" id="cardHover">
                 <a class="nav-link" href="">
                     <img src="./images/sec2 eleven.png" class="card-img-top rounded-2 img-fluid" alt="">
-                    <div class="card-body">
-                    <p class="card-text text-center">Made in Nigeria</p>
+                    <div class="card-body p-0 py-1">
+                        <p class="card-text text-center">Made in Nigeria</p>
                     </div>
                 </a>
             </div>
-            <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+            <div class="card border border-0 p-1" id="cardHover">
                 <a class="nav-link" href="">
                     <img src="./images/sec2 twelve.jpg" class="card-img-top rounded-2 img-fluid" alt="">
-                    <div class="card-body">
-                    <p class="card-text text-center">18+</p>
+                    <div class="card-body p-0 py-1">
+                        <p class="card-text text-center">18+</p>
                     </div>
                 </a>
             </div>
         </div>
 
-        <div id="sectionFour" class="rounded-2 bg-white">
+        <div id="sectionThree" class="rounded-2 bg-white">
             <div class="d-flex justify-content-between align-items-center px-3">
                 <h5 class="py-3">Top selling items</h5>
                 <a id="seeAllLink" class="link-underline link-underline-opacity-0 fw-medium" href="">SEE ALL <i class="fa-solid fa-angle-right"></i></a>
             </div>
-            <div id="sectionFourDiv" class="px-2 d-flex justify-content-evenly">
-                <div onclick="showDescription(0)" class="card border border-0 sectionFourDivs" id="cardHover">
-                    <a class="nav-link" href="">
+            <div id="sectionThreeDiv" class="px-2 d-flex justify-content-evenly">
+                <div onclick="showDescription(1)" class="card border border-0 sectionThreeDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=1">
                         <img src="./images/sec4 one.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Men's Palm Sandals PU L...</p>
@@ -346,38 +360,38 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFourDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(2)" class="card border border-0 sectionThreeDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=2">
                         <img src="./images/sec4 two.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">itel 20000mAH Mobile Po...</p>
-                            <b>₦ 16,000</b> <br>
-                            <span>₦ 18,500</span>
+                            <b>₦ 19,900</b> <br>
+                            <span>₦ 25,000</span>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFourDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div  onclick="showDescription(3)" class="card border border-0 sectionThreeDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=3">
                         <img src="./images/sec4 three.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Ace Elec 20000 MAH Utra...</p>
-                            <b>₦ 8,600</b> <br>
-                            <span>₦ 12,000</span>
+                            <b>₦ 19,999</b> <br>
+                            <span>₦ 30,000</span>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFourDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(4)" class="card border border-0 sectionThreeDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=4">
                         <img src="./images/sec4 four.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
-                            <p class="card-text">Sun King Home 200X Ultr...</p>
-                            <b>₦ 103,509</b> <br>
+                            <p class="card-text">Sun King Home 200X Plu...</p>
+                            <b>₦ 101,645</b> <br>
                             <span>₦ 111,300</span>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFourDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(3)" class="card border border-0 sectionThreeDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=3">
                         <img src="./images/sec4 five.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Ace Elec 20000 MAH Utra...</p>
@@ -386,8 +400,8 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFourDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(5)" class="card border border-0 sectionThreeDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=5">
                         <img src="./images/sec4 six.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">100% Cotten 4 Pcs Men'...</p>
@@ -399,94 +413,93 @@
             </div>
         </div>
 
-        <div id="sectionFive" class="rounded-2">
+        <div id="sectionFour" class="rounded-2">
             <div class="d-flex justify-content-between align-items-center px-3">
                 <h5 class="py-2 pt-3">Tech Week Deals</h5>
                 <a id="seeAllLink" class="link-dark link-underline-opacity-0 fw-medium" href="">SEE ALL <i class="fa-solid fa-angle-right"></i></a>
             </div>
-            <div id="sectionFiveDiv" class="px-2 bg-white d-flex justify-content-evenly">
-                <div class="card border border-0 sectionFourDivs" id="cardHover">
-                    <a class="nav-link" href="">
+            <div id="sectionFourDiv" class="px-2 bg-white d-flex justify-content-evenly">
+                <div onclick="showDescription(6)" class="card border border-0 sectionThreeDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=6">
                         <img src="./images/sec5 one.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
-                            <p class="card-text">Sumec 2.5kva Manual Sta...</p>
-                            <b>₦ 323,415</b> <br>
-                            <span>₦ 333,415</span>
+                            <p class="card-text">Sumec Fireman 2.5kva M...</p>
+                            <b>₦ 272,855</b> <br>
+                            <span>₦ 377,050</span>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFiveDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(7)" class="card border border-0 sectionFourDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=7">
                         <img src="./images/sec5 two.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Infinix Smart 8 Plus 6.6" 4...</p>
-                            <b>₦ 136,600</b> <br>
+                            <b>₦ 125,999</b> <br>
                             <span>₦ 300,000</span>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFiveDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(8)" class="card border border-0 sectionFourDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=8">
                         <img src="./images/sec5 three.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">itel PowerLite 20000mAh ...</p>
-                            <b>₦ 12,800</b> <br>
-                            <span>₦ 32,000</span>
+                            <b>₦ 22,750</b> <br>
+                            <span>₦ 69,000</span>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFiveDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(9)" class="card border border-0 sectionFourDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=9">
                         <img src="./images/sec5 four.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Hp Refurbished HP EliteB...</p>
-                            <b>₦ 206,979</b> <br>
-                            <span>₦ 279,422</span>
+                            <b>₦ 279,422</b>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFiveDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(10)" class="card border border-0 sectionFourDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=10">
                         <img src="./images/sec5 five.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Eaget Pen Flash Drive 3.0 ...</p>
-                            <b>₦ 5,369</b> <br>
+                            <b>₦ 5,499</b> <br>
                             <span>₦ 6,199</span>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFiveDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(11)" class="card border border-0 sectionFourDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=11">
                         <img src="./images/sec5 six.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">itel 32 Inches LED TV (A3...</p>
-                            <b>₦ 86,999</b> <br>
-                            <span>₦ 116,733</span>
+                            <b>₦ 78,599</b> <br>
+                            <span>₦ 80,000</span>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFiveDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(12)" class="card border border-0 sectionFourDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=12">
                         <img src="./images/sec5 seven.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Sun King Home 40 Plus S...</p>
-                            <b>₦ 47,567</b> <br>
+                            <b>₦ 52,272</b> <br>
                             <span>₦ 52,800</span>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFiveDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(13)" class="card border border-0 sectionFourDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=13">
                         <img src="./images/sec5 eight.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">DIY Wall Clocks 3D Mirro...</p>
-                            <b>₦ 3,570</b> <br>
-                            <span>₦ 6,720</span>
+                            <b>₦ 3,470</b> <br>
+                            <span>₦ 6,600</span>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFiveDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(3)" class="card border border-0 sectionFourDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=3">
                         <img src="./images/sec5 nine.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Ace Elec 20000 MAH Utra...</p>
@@ -495,70 +508,67 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFiveDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(14)" class="card border border-0 sectionFourDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=14">
                         <img src="./images/sec5 ten.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Ps5 Controller Charger Fa...</p>
-                            <b>₦ 14,326</b> <br>
-                            <span>₦ 24,499</span>
+                            <b>₦ 35,000</b>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFiveDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(15)" class="card border border-0 sectionFourDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=15">
                         <img src="./images/sec5 eleven.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Ace Elec F9 Wireless Fing...</p>
-                            <b>₦ 4,763</b> <br>
-                            <span>₦ 10,184</span>
+                            <b>₦ 13,000</b> <br>
+                            <span>₦ 18,000</span>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFiveDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(16)" class="card border border-0 sectionFourDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=16">
                         <img src="./images/sec5 twelve.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Midea 173 Litres Double ...</p>
-                            <b>₦ 195,499</b> <br>
-                            <span>₦ 318,070</span>
+                            <b>₦ 385,500</b> <br>
+                            <span>₦ 480,000</span>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFiveDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(17)" class="card border border-0 sectionFourDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=17">
                         <img src="./images/sec5 thirteen.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Tecno Spark 20 (KJ5) 6.6" ...</p>
-                            <b>₦ 192,785</b> <br>
-                            <span>₦ 231,345</span>
+                            <b>₦ 231,345</b>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFiveDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(18)" class="card border border-0 sectionFourDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=18">
                         <img src="./images/sec5 fourteen.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Royal 43 Inches LED TV (...</p>
-                            <b>₦ 178,000</b> <br>
-                            <span>₦ 188,000</span>
+                            <b>₦ 229,674</b>
                         </div>
                     </a>
                 </div>
             </div>
         </div>
 
-        <div id="sectionSeven" class="rounded-2">
+        <div id="sectionFive" class="rounded-2">
             <h5 class="p-2 px-3 pt-3 text-center">Power Up</h5>
-            <div class="p-2 bg-white d-flex flex-wrap gap- align-items-center justify-content-between">
+            <div class="p-2 bg-white d-flex gap-2 align-items-center justify-content-between">
                 <a href="">
-                    <img class="img-fluid" src="./images/Inverter.png" alt="">
+                    <img class="img-fluid w-100" src="./images/Inverter.png" alt="">
                 </a>
                 <a href="">
-                    <img class="img-fluid" src="./images/Power-Bank.png" alt="">
+                    <img class="img-fluid w-100" src="./images/Power-Bank.png" alt="">
                 </a>
                 <a href="">
-                    <img class="img-fluid" src="./images/Genrator.png" alt="">
+                    <img class="img-fluid w-100" src="./images/Genrator.png" alt="">
                 </a>
             </div>
         </div>
@@ -569,38 +579,38 @@
                 <a id="seeAllLink" class="link-dark link-underline-opacity-0 fw-medium" href="">SEE ALL <i class="fa-solid fa-angle-right"></i></a>
             </div>
             <div id="sectionSixDiv" class="px-2 bg-white d-flex justify-content-evenly">
-                <div class="card border border-0 sectionSixDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(19)" class="card border border-0 sectionSixDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=19">
                         <img src="./images/sec6 1.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Sumec 3.0kva Key Start G...</p>
-                            <b>₦ 452,545</b> <br>
-                            <span>₦ 462,545</span>
+                            <b>₦ 387,805</b> <br>
+                            <span>₦ 520,050</span>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionSixDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(20)" class="card border border-0 sectionSixDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=20">
                         <img src="./images/sec6 2.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
-                            <p class="card-text">Sumec 2.5kva Manual Sta...</p>
-                            <b>₦ 323,415</b> <br>
-                            <span>₦ 333,415</span>
+                            <p class="card-text">SUMEC FIRMAN 2.5kva ...</p>
+                            <b>₦ 314,800</b> <br>
+                            <span>₦ 350,000</span>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionSixDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(21)" class="card border border-0 sectionSixDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=21">
                         <img src="./images/sec6 3.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Tigmax 2.0Kva Manual St...</p>
-                            <b>₦ 180,000</b> <br>
-                            <span>₦ 190,000</span>
+                            <b>₦ 260,755</b> <br>
+                            <span>₦ 290,755</span>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionSixDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(22)" class="card border border-0 sectionSixDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=22">
                         <img src="./images/sec6 4.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Firman 3.0KVA Constant ...</p>
@@ -609,8 +619,8 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionSixDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(23)" class="card border border-0 sectionSixDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=23">
                         <img src="./images/sec6 5.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Sumac 2.0KVA Constant ...</p>
@@ -619,8 +629,8 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionSixDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(24)" class="card border border-0 sectionSixDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=24">
                         <img src="./images/sec6 6.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Firman Surface Pumping ...</p>
@@ -629,8 +639,8 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionSixDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(25)" class="card border border-0 sectionSixDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=25">
                         <img src="./images/sec6 7.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Sumec Firman Generator ...</p>
@@ -638,8 +648,8 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionSixDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(26)" class="card border border-0 sectionSixDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=26">
                         <img src="./images/sec6 8.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Firman Surface Pumping ...</p>
@@ -648,8 +658,8 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionSixDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(27)" class="card border border-0 sectionSixDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=27">
                         <img src="./images/sec6 9.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Sumen Firman 2.5KVA Ge...</p>
@@ -658,8 +668,8 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionSixDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(28)" class="card border border-0 sectionSixDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=28">
                         <img src="./images/sec6 10.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Firman 1.1HP Inverter AC ...</p>
@@ -668,8 +678,8 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionSixDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(29)" class="card border border-0 sectionSixDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=29">
                         <img src="./images/sec6 11.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Firman Submersible Pum...</p>
@@ -678,8 +688,8 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionSixDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(30)" class="card border border-0 sectionSixDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=30">
                         <img src="./images/sec6 12.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Sumec Firman 8.0KVA Ge...</p>
@@ -688,8 +698,8 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionSixDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(31)" class="card border border-0 sectionSixDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=31">
                         <img src="./images/sec6 13.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Firman Submersible Pum...</p>
@@ -698,8 +708,8 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionSixDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(32)" class="card border border-0 sectionSixDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=32">
                         <img src="./images/sec6 14.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Firman 4kva Switch Start ...</p>
@@ -708,8 +718,8 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionSixDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(33)" class="card border border-0 sectionSixDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=33">
                         <img src="./images/sec6 15.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Sumec Firman 6kva Key S...</p>
@@ -724,50 +734,50 @@
         <div id="sectionSeven" class="rounded-2">
             <h5 class="p-2 px-3 pt-3 text-center">Best Phone Deals</h5>
             <div class="bg-white px-2 pt-2 d-flex justify-content-evenly flex-wrap">
-                <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+                <div class="card border border-0 p-1" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec7 1.png" class="card-img-top rounded-2 img-fluid" alt="">
-                        <div class="card-body">
+                        <div class="card-body p-0 py-1">
                             <p class="card-text text-center">Cell Phones</p>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+                <div class="card border border-0 p-1" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec7 2.png" class="card-img-top rounded-2 img-fluid" alt="">
-                        <div class="card-body">
+                        <div class="card-body p-0 py-1">
                         <p class="card-text text-center">iPhones</p>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+                <div class="card border border-0 p-1" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec7 3.png" class="card-img-top rounded-2 img-fluid" alt="">
-                        <div class="card-body">
+                        <div class="card-body p-0 py-1">
                         <p class="card-text text-center">Android Phones</p>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+                <div class="card border border-0 p-1" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec7 4.png" class="card-img-top rounded-2 img-fluid" alt="">
-                        <div class="card-body">
+                        <div class="card-body p-0 py-1">
                         <p class="card-text text-center">Android Tablet</p>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+                <div class="card border border-0 p-1" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec7 5.png" class="card-img-top rounded-2 img-fluid" alt="">
-                        <div class="card-body">
+                        <div class="card-body p-0 py-1">
                         <p class="card-text text-center">Fold Phones</p>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+                <div class="card border border-0 p-1" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec7 6.jpg" class="card-img-top rounded-2 img-fluid" alt="">
-                        <div class="card-body">
+                        <div class="card-body p-0 py-1">
                         <p class="card-text text-center">Mobile Accessories</p>
                         </div>
                     </a>
@@ -781,7 +791,7 @@
                 <a id="seeAllLink" class="link-dark link-underline-opacity-0 fw-medium" href="">SEE ALL <i class="fa-solid fa-angle-right"></i></a>
             </div>
             <div id="sectionEightDiv" class="px-2 bg-white d-flex justify-content-evenly">
-                <div class="card border border-0 sectionEightDivs" id="cardHover">
+                <div onclick="showDescription()" class="card border border-0 sectionEightDivs" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec8 1.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
@@ -791,7 +801,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionEightDivs" id="cardHover">
+                <div onclick="showDescription()" class="card border border-0 sectionEightDivs" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec8 2.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
@@ -801,7 +811,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionEightDivs" id="cardHover">
+                <div onclick="showDescription()" class="card border border-0 sectionEightDivs" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec8 3.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
@@ -811,7 +821,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionEightDivs" id="cardHover">
+                <div onclick="showDescription()" class="card border border-0 sectionEightDivs" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec8 4.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
@@ -821,7 +831,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionEightDivs" id="cardHover">
+                <div onclick="showDescription()" class="card border border-0 sectionEightDivs" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec8 5.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
@@ -831,7 +841,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionEightDivs" id="cardHover">
+                <div onclick="showDescription()" class="card border border-0 sectionEightDivs" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec8 6.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
@@ -841,7 +851,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionEightDivs" id="cardHover">
+                <div onclick="showDescription()" class="card border border-0 sectionEightDivs" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec8 7.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
@@ -851,7 +861,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionEightDivs" id="cardHover">
+                <div onclick="showDescription()" class="card border border-0 sectionEightDivs" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec8 8.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
@@ -861,7 +871,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionEightDivs" id="cardHover">
+                <div onclick="showDescription()" class="card border border-0 sectionEightDivs" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec8 9.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
@@ -871,7 +881,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionEightDivs" id="cardHover">
+                <div onclick="showDescription()" class="card border border-0 sectionEightDivs" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec8 10.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
@@ -880,7 +890,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionEightDivs" id="cardHover">
+                <div onclick="showDescription()" class="card border border-0 sectionEightDivs" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec8 11.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
@@ -890,7 +900,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionEightDivs" id="cardHover">
+                <div onclick="showDescription()" class="card border border-0 sectionEightDivs" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec8 12.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
@@ -900,7 +910,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionEightDivs" id="cardHover">
+                <div onclick="showDescription()" class="card border border-0 sectionEightDivs" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec8 13.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
@@ -910,7 +920,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionEightDivs" id="cardHover">
+                <div onclick="showDescription()" class="card border border-0 sectionEightDivs" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec8 14.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
@@ -920,7 +930,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionEightDivs" id="cardHover">
+                <div onclick="showDescription()" class="card border border-0 sectionEightDivs" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec8 15.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
@@ -936,98 +946,98 @@
         <div id="sectionNine" class="rounded-2">
             <h5 class="p-2 px-3 pt-3 text-center">Shop From Our Collections</h5>
             <div class="bg-white px-2 pt-2 d-flex flex-wrap justify-content-evenly">
-                <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+                <div class="card border border-0 p-1" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/Appliances.jpg" class="card-img-top rounded-2 img-fluid" alt="">
-                        <div class="card-body">
+                        <div class="card-body p-0 py-1">
                             <p class="card-text text-center">Appliances Deals</p>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+                <div class="card border border-0 p-1" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/Phones.jpg" class="card-img-top rounded-2 img-fluid" alt="">
-                        <div class="card-body">
+                        <div class="card-body p-0 py-1">
                         <p class="card-text text-center">Phone Deals</p>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+                <div class="card border border-0 p-1" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/Fashion.jpg" class="card-img-top rounded-2 img-fluid" alt="">
-                        <div class="card-body">
+                        <div class="card-body p-0 py-1">
                         <p class="card-text text-center">Fashion Deals</p>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+                <div class="card border border-0 p-1" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/Beauty.jpg" class="card-img-top rounded-2 img-fluid" alt="">
-                        <div class="card-body">
+                        <div class="card-body p-0 py-1">
                             <p class="card-text text-center">Beauty Deals</p>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+                <div class="card border border-0 p-1" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/Electronic.jpg" class="card-img-top rounded-2 img-fluid" alt="">
-                        <div class="card-body">
+                        <div class="card-body p-0 py-1">
                         <p class="card-text text-center">Home Entertainment</p>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+                <div class="card border border-0 p-1" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/Supermarket.jpg" class="card-img-top rounded-2 img-fluid" alt="">
-                        <div class="card-body">
+                        <div class="card-body p-0 py-1">
                             <p class="card-text text-center">Supermarket Deals</p>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+                <div class="card border border-0 p-1" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/Computing.jpg" class="card-img-top rounded-2 img-fluid" alt="">
-                        <div class="card-body">
+                        <div class="card-body p-0 py-1">
                             <p class="card-text text-center">Computing Deals</p>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+                <div class="card border border-0 p-1" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/Mobile_Accessories.jpg" class="card-img-top rounded-2 img-fluid" alt="">
-                        <div class="card-body">
+                        <div class="card-body p-0 py-1">
                         <p class="card-text text-center">Accessories Deals</p>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+                <div class="card border border-0 p-1" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/Gaming.jpg" class="card-img-top rounded-2 img-fluid" alt="">
-                        <div class="card-body">
+                        <div class="card-body p-0 py-1">
                             <p class="card-text text-center">Gaming Deals</p>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+                <div class="card border border-0 p-1" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/Power_Deals.jpg" class="card-img-top rounded-2 img-fluid" alt="">
-                        <div class="card-body">
+                        <div class="card-body p-0 py-1">
                         <p class="card-text text-center">Power Deals</p>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+                <div class="card border border-0 p-1" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/Kids_Corner.jpg" class="card-img-top rounded-2 img-fluid" alt="">
-                        <div class="card-body">
+                        <div class="card-body p-0 py-1">
                             <p class="card-text text-center">Kid's corner</p>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0" id="cardHover" style="width: 11.5rem; margin-bottom: 5px;">
+                <div class="card border border-0 p-1" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/home.png" class="card-img-top rounded-2 img-fluid" alt="">
-                        <div class="card-body">
+                        <div class="card-body p-0 py-1">
                         <p class="card-text text-center">Home & Office</p>
                         </div>
                     </a>
@@ -1035,13 +1045,13 @@
             </div>
         </div>
 
-        <div id="thirdSection" class="bg-white p-2 rounded-2 d-flex justify-content-center">
+        <div id="sectionTen" class="bg-white p-2 rounded-2 d-flex justify-content-center w-100">
             <a href="">
-                <img class="img-fluid" src="./images/image1.png" alt="">
+                <img  class="img-fluid" src="./images/image1.png" alt="">
             </a>
         </div>
 
-        <div id="sectionTen" class="p-2 rounded-2 bg-white d-flex align-items-center justify-content-center gap-2">
+        <div id="sectionEleven" class="p-2 rounded-2 bg-white d-flex align-items-center justify-content-center gap-2">
             <a href="">
                 <img class="img-fluid" src="./images/image2.jpg" alt="">
             </a>

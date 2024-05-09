@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsiveness.css">
+    <link rel="stylesheet" href="responsiveness.css" media="(max-width: 600px)">
     <script src="https://kit.fontawesome.com/fab040517b.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -88,13 +88,27 @@
           </div>
         </div>
     </nav>
-
+    <nav id="nav3" class="navbar navbar-expand-lg bg-body px-2 py-0 d-flex flex-column">
+        <div class="d-flex align-items-center justify-content-between px-3">
+            <div id="logoDiv">
+                <img class="img-fluid" src="./images/jumia-logo-removebg-preview.png" alt="">
+            </div>
+            <div class="d-flex gap-4">
+                <i class="fa-regular fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+        <div class="border border-black border-opacity-75 p-2 d-flex align-items-center rounded-5 me-2">
+            <img id="searchIcon" class="img-fluid" src="./images/jumia-search-icon-removebg-preview.png" alt="">
+            <input class="border border-0 w-100 bg-transparent mx-2" type="search" placeholder="Search products, brands and categories" aria-label="Search">
+        </div>
+    </nav>
     <section id="descriptionSec">
         <div class="d-flex justify-content-between gap-3">
             <div class="rounded-1 bg-white shadow-sm p-3 w-75">
                 <div class="d-flex gap-3" id="topLeftDiv">
                     <div>
-                        <div><img src="./images/sec4 one.jpg" alt=""></div>
+                        <div><img id="productImage" src="" alt=""></div>
                         <div id="shareProduct" class="mt-4">
                             <p class="m-0">SHARE THIS PRODUCT</p>
                             <div class="d-flex align-items-center mt-2 gap-1">
@@ -104,38 +118,36 @@
                         </div>
                     </div>
                     <div>
-                        <h1>Men's Palm Sandals PU Leather Shoes Comfortable Soft Sole Casual Black</h1>
+                        <h1 id="productTitle"></h1>
                         <div>
                             Brand: 
-                            <a href="">Itel</a>
-                            |
-                            <a href="">Similar products from itel</a>
+                            <a id="brandName" href=""></a>
                         </div>
                         <div class="border border-secondary border-opacity-25 my-2"></div>
                         <div id="boldPrice">
-                            <b>₦ 15,760</b>
-                            <span>₦ 18,900</span>
+                            <b id="discountedPrice"></b>
+                            <span id="initialPrice"></span>
                         </div>
                         <div class="d-flex flex-column">
-                            <small class="text-secondary">In stock</small>
+                            <small class="text-secondary py-2">In stock</small>
                             <small>+ shipping from <b>₦ 250</b> to LEKKI-AJAH (SANGOTEDO)</small>
                         </div>
                         <div>
                             <a href="">(86 verified ratings)</a>
                         </div>
                         <div class="my-3">
-                            <!-- <button id="btnDiv" class="btn p-0 py-1 w-100 rounded-2">
+                            <button onclick="addToCart(`${productId}`)" class="btn p-0 py-1 w-100 rounded-2">
                                 <img src="./images/Screenshot 2024-05-02 160510.png" alt="">
                                 <span>ADD TO CART</span>
-                            </button> -->
-                            <div id="quantity" class="d-flex align-items-center gap-4">
-                                <img class="rounded-1 shadow" src="./images/icons8-minus-50.png" alt="">
-                                <p class="m-0">1</p>
-                                <img class="rounded-1 shadow" src="./images/icons8-plus-50.png" alt="">
-                                <span class="d-flex align-items-center">
-                                    (<p class="m-0 mx-1">1</p>item(s) added)
-                                </span>
-                            </div>
+                            </button>
+                        </div>
+                        <div id="quantity" class="d-flex align-items-center gap-4 my-3">
+                            <img class="rounded-1 shadow" src="./images/icons8-minus-50.png" alt="">
+                            <p class="m-0">1</p>
+                            <img class="rounded-1 shadow" src="./images/icons8-plus-50.png" alt="">
+                            <span class="d-flex align-items-center">
+                                (<p class="m-0 mx-1">1</p>item(s) added)
+                            </span>
                         </div>
                         <div class="border border-secondary border-opacity-25 my-2"></div>
                         <div>
