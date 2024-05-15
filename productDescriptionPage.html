@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsiveness.css" media="(max-width: 600px)">
+    <link rel="stylesheet" href="responsiveness.css" media="(max-width: 1200px)">
     <script src="https://kit.fontawesome.com/fab040517b.js" crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -23,15 +23,15 @@
             <img class="mx-1 img-fluid" id="logoTwo" src="./images/jumia-pay-logo-removebg-preview.png" alt="">
         </div>
     </nav>
-    <nav id="nav2" class="navbar navbar-expand-lg bg-body px-4 py-0">
+    <nav id="nav2" class="navbar navbar-expand-lg bg-body px-4 py-4">
         <div class="container-fluid d-flex align-items-center justify-content-around">
           <div>
             <img id="logo" class="img-fluid" src="./images/jumia-logo-removebg-preview.png" alt="">
           </div>
           <div class="d-flex justify-content-between align-items-center w-75" id="navbarSupportedContent">
-                <div class="d-flex align-items-center">
-                    <div class="border border-black border-opacity-25 p-2 d-flex align-items-center rounded-2 me-2">
-                        <img id="searchIcon" class="img-fluid" src="./images/jumia-search-icon-removebg-preview.png" alt="">
+                <div class="d-flex align-items-center w-50">
+                    <div class="border border-black border-opacity-25 p-2 d-flex align-items-center rounded-2 me-2 w-100">
+                        <i class="fa-solid fa-magnifying-glass"></i>
                         <input class="border border-0 w-100 bg-transparent mx-2" type="search" placeholder="Search products, brands and categories" aria-label="Search">
                     </div>
                     <button id="searchBtn" class="btn text-light" type="submit">SEARCH</button>
@@ -88,23 +88,20 @@
           </div>
         </div>
     </nav>
-    <nav id="nav3" class="navbar navbar-expand-lg bg-body px-2 py-0 d-flex flex-column">
+    <nav id="nav3" class="navbar navbar-expand-lg bg-body p-3 d-flex flex-column">
         <div class="d-flex align-items-center justify-content-between px-3">
             <div id="logoDiv">
                 <img class="img-fluid" src="./images/jumia-logo-removebg-preview.png" alt="">
             </div>
             <div class="d-flex gap-4">
+                <i class="fa-solid fa-magnifying-glass"></i>
                 <i class="fa-regular fa-user"></i>
                 <i class="fa-solid fa-cart-shopping"></i>
             </div>
         </div>
-        <div class="border border-black border-opacity-75 p-2 d-flex align-items-center rounded-5 me-2">
-            <img id="searchIcon" class="img-fluid" src="./images/jumia-search-icon-removebg-preview.png" alt="">
-            <input class="border border-0 w-100 bg-transparent mx-2" type="search" placeholder="Search products, brands and categories" aria-label="Search">
-        </div>
     </nav>
     <section id="descriptionSec">
-        <div class="d-flex justify-content-between gap-3">
+        <div id="desktopDesc" class="d-flex justify-content-between gap-3">
             <div class="rounded-1 bg-white shadow-sm p-3 w-75">
                 <div class="d-flex gap-3" id="topLeftDiv">
                     <div>
@@ -152,19 +149,25 @@
                         <div class="border border-secondary border-opacity-25 my-2"></div>
                         <div>
                             <p>PROMOTIONS</p>
-                            <div class="d-flex flex-column lh-lg">
-                                <a href="">
+                            <div class="d-flex flex-column">
+                                <div id="aDiv" class="d-flex align-items-center gap-2">
                                     <img class="me-1 img-fluid" src="./images/jumia-icon-removebg-preview.png" alt="">
-                                    Call 07006000000 To Place Your Order
-                                </a>
-                                <a href="">
+                                    <a href="">
+                                        Call 07006000000 To Place Your Order
+                                    </a>
+                                </div>
+                                <div id="aDiv" class="d-flex align-items-center gap-2 my-2">
                                     <img class="me-1 img-fluid" src="./images/jumia-icon-removebg-preview.png" alt="">
-                                    Need extra money? Loan up to N500,000 on the JumiaPay Android app.
-                                </a>
-                                <a href="">
+                                    <a href="">
+                                        Need extra money? Loan up to N500,000 on the JumiaPay Android app.
+                                    </a>
+                                </div>
+                                <div id="aDiv" class="d-flex align-items-center gap-2">
                                     <img class="me-1 img-fluid" src="./images/jumia-icon-removebg-preview.png" alt="">
-                                    Enjoy cheaper shipping fees when you select a PickUp Station at checkout.
-                                </a>
+                                    <a href="">
+                                        Enjoy cheaper shipping fees when you select a PickUp Station at checkout.
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -193,7 +196,7 @@
                 </div>
                 <div>
                     <div class="d-flex align-items-start gap-1 my-2">
-                        <img class="img-fluid" src="./images/Screenshot 2024-05-03 103122.png" alt="">
+                        <img style="width: 17%;" class="img-fluid" src="./images/Screenshot 2024-05-03 103122.png" alt="">
                         <div>
                             <div id="delivery" class="d-flex justify-content-between align-items-center">
                                 <h5 class="m-0">Pickup Station</h5>
@@ -215,7 +218,7 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-start gap-1 my-2">
-                        <img class="img-fluid" src="./images/Screenshot 2024-05-03 105749.png" alt="">
+                        <img style="width: 17%;" class="img-fluid" src="./images/Screenshot 2024-05-03 105749.png" alt="">
                         <div>
                             <div id="delivery" class="d-flex justify-content-between align-items-center">
                                 <h5 class="m-0">Door Delivery</h5>
@@ -238,7 +241,7 @@
                         </div>
                     </div>
                     <div class="d-flex align-items-start gap-1 my-2">
-                        <img class="img-fluid" src="./images/Screenshot 2024-05-03 105814.png" alt="">
+                        <img style="width: 15%;" class="img-fluid" src="./images/Screenshot 2024-05-03 105814.png" alt="">
                         <div>
                             <div id="delivery" class="d-flex justify-content-between align-items-center">
                                 <h5 class="m-0">Return Policy</h5>
@@ -255,13 +258,159 @@
                 </div>
             </div>
         </div>
-        <div id="sectionFour" class="rounded-2 bg-white shadow-sm mt-3">
+
+        <div id="responsiveDesc" class="">
+            <div class="">
+                <div class="" id="topLeftDiv">
+                    <div class="px-3">
+                        <img class="rounded-1 shadow-sm" id="productImage" src="" alt="">
+                    </div>
+                    <div class="bg-white shadow-sm p-3 mt-3">
+                        <h1 id="productTitle"></h1>
+                        <div>
+                            Brand: 
+                            <a id="brandName" href=""></a>
+                        </div>
+                        <div id="boldPrice">
+                            <b id="discountedPrice"></b>
+                            <span id="initialPrice"></span>
+                        </div>
+                        <div class="d-flex flex-column">
+                            <small class="text-secondary py-2">In stock</small>
+                            <small>+ shipping from <b>₦ 250</b> to LEKKI-AJAH (SANGOTEDO)</small>
+                        </div>
+                        <div>
+                            <a href="">(86 verified ratings)</a>
+                        </div>
+                    </div>
+                    <div>
+                        <p class="p-3 m-0">PROMOTIONS</p>
+                        <div class="d-flex flex-column bg-white shadow-sm p-3">
+                            <div id="aDiv" class="d-flex align-items-center gap-2">
+                                <img class="me-1 img-fluid" src="./images/jumia-icon-removebg-preview.png" alt="">
+                                <a href="">
+                                    Call 07006000000 To Place Your Order
+                                </a>
+                            </div>
+                            <div id="aDiv" class="d-flex align-items-center gap-2 my-2">
+                                <img class="me-1 img-fluid" src="./images/jumia-icon-removebg-preview.png" alt="">
+                                <a href="">
+                                    Need extra money? Loan up to N500,000 on the JumiaPay Android app.
+                                </a>
+                            </div>
+                            <div id="aDiv" class="d-flex align-items-center gap-2">
+                                <img class="me-1 img-fluid" src="./images/jumia-icon-removebg-preview.png" alt="">
+                                <a href="">
+                                    Enjoy cheaper shipping fees when you select a PickUp Station at checkout.
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <h5 class="p-3 m-0">DELIVERY & RETURNS</h5>
+                    <div class="rounded-1 bg-white shadow-sm p-3">
+                        <div>
+                            <div>
+                                <img id="jumiaExpress" class="img-fluid" src="./images/Screenshot 2024-05-03 103138.png" alt="">
+                            </div>
+                            <small class="m-0">
+                                Free delivery on thousands of products in Lagos, Ibadan & Abuja
+                                <a href="">Details</a>
+                            </small>
+                        </div>
+                        <div class="border border-secondary border-opacity-25 my-2"></div>
+                        <div>
+                            <h4>Input your location</h4>
+                            <input class="w-100 p-2 my-2" type="text" placeholder="Input Your Location">
+                            <input class="w-100 p-2 my-2" type="text" placeholder="Input Your Address">
+                        </div>
+                        <div>
+                            <div class="d-flex align-items-start gap-1 my-2">
+                                <img class="img-fluid" src="./images/Screenshot 2024-05-03 103122.png" alt="">
+                                <div class="w-100">
+                                    <div id="delivery" class="d-flex justify-content-between align-items-center">
+                                        <h5 class="m-0">Pickup Station</h5>
+                                        <a href="">Details</a>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <small>
+                                            Delivery Fees 
+                                            <b>₦ 250</b>
+                                        </small>
+                                        <small>Arriving at pickup station between 
+                                            <b>08 May</b> 
+                                            & 
+                                            <b>10 May</b> 
+                                            when you order within next 
+                                            <b>3hrs 5mins</b>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start gap-1 my-2">
+                                <img class="img-fluid" src="./images/Screenshot 2024-05-03 105749.png" alt="">
+                                <div class="w-100">
+                                    <div id="delivery" class="d-flex justify-content-between align-items-center">
+                                        <h5 class="m-0">Door Delivery</h5>
+                                        <a href="">Details</a>
+                                    </div>
+                                    <div class="d-flex flex-column">
+                                        <small>
+                                            Delivery Fees 
+                                            <b>₦ 620</b>
+                                        </small>
+                                        <small>
+                                            Ready for delivery between
+                                            <b>08 May</b> 
+                                            & 
+                                            <b>10 May</b> 
+                                            when you order within next 
+                                            <b>3hrs 5mins</b>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-start gap-1 my-2">
+                                <img class="img-fluid" src="./images/Screenshot 2024-05-03 105814.png" alt="">
+                                <div>
+                                    <div id="delivery" class="d-flex justify-content-between align-items-center">
+                                        <h5 class="m-0">Return Policy</h5>
+                                    </div>
+                                    <div id="delivery" class="d-flex flex-column">
+                                        <small>
+                                            Free return within 7 days for ALL eligible items
+                                            <a href="">Details</a>
+                                        </small>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="topLeftDiv" class="align-self bg-white shadow-sm p-2 m-2 rounded-2">
+                        <a href="">Report incorrect product information</a>
+                    </div>
+                    <div style="position: sticky; bottom: 0;" class="my-3 bg-white shadow-sm p-2 d-flex align-items-center gap-2">
+                        <img style="width: 10%;" class="img-fluid" src="./images/Screenshot 2024-05-14 230411.png" alt="">
+                        <div class="w-100">
+                            <button onclick="addToCart(`${productId}`)" class="btn p-0 py-1 rounded-2">
+                                <img src="./images/Screenshot 2024-05-02 160510.png" alt="">
+                                <span>ADD TO CART</span>
+                            </button>
+                        </div>
+                        <!-- <div id="quantity" class="d-flex align-items-center justify-content-between gap-4 my-3 w-100">
+                            <img class="rounded-1 shadow" src="./images/icons8-minus-50.png" alt="">
+                            <p class="m-0">1</p>
+                            <img class="rounded-1 shadow" src="./images/icons8-plus-50.png" alt="">
+                        </div> -->
+                </div>
+            </div>
+        </div>
+        <div id="sectionThree" class="rounded-2 bg-white shadow-sm mt-3">
             <div class="d-flex justify-content-between align-items-center px-3">
                 <h5 class="py-3">Top selling items</h5>
                 <a id="seeAllLink" class="link-underline link-underline-opacity-0 fw-medium" href="">SEE ALL <i class="fa-solid fa-angle-right"></i></a>
             </div>
-            <div id="sectionFourDiv" class="px-2 d-flex justify-content-evenly">
-                <div class="card border border-0 sectionFourDivs" id="cardHover">
+            <div id="sectionThreeDiv" class="px-2 d-flex justify-content-evenly">
+                <div class="card border border-0 sectionThreeDivs" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec4 one.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
@@ -271,7 +420,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFourDivs" id="cardHover">
+                <div class="card border border-0 sectionThreeDivs" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec4 two.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
@@ -281,7 +430,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFourDivs" id="cardHover">
+                <div class="card border border-0 sectionThreeDivs" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec4 three.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
@@ -291,7 +440,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFourDivs" id="cardHover">
+                <div class="card border border-0 sectionThreeDivs" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec4 four.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
@@ -301,7 +450,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFourDivs" id="cardHover">
+                <div class="card border border-0 sectionThreeDivs" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec4 five.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
@@ -311,7 +460,7 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFourDivs" id="cardHover">
+                <div class="card border border-0 sectionThreeDivs" id="cardHover">
                     <a class="nav-link" href="">
                         <img src="./images/sec4 six.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
@@ -335,14 +484,14 @@
             <div class="d-flex align-items-center gap-2 mt-3">
                 <div class="bg-white d-flex align-items-center p-2 gap-2 rounded-1">
                     <img id="inputImg" src="./images/Screenshot 2024-04-30 153931.png" alt="">
-                    <input class="rounded-2" type="email" name="" id="" placeholder="Enter E-mail Address">
+                    <input class="rounded-2" type="email" name="" placeholder="Enter E-mail Address">
                 </div>
                 <button class="btn text-light border border-white">MALE</button>
                 <button class="btn text-light border border-white">FEMALE</button>
             </div>
             <div id="checkboxDiv" class="mt-3">
                 <div class="d-flex align-items-start gap-2">
-                    <input class="mt-1" type="checkbox" name="" id="">
+                    <input class="mt-1" type="checkbox" name="">
                     <p class="m-0">I agree to Jumia’s Privacy and Cookie Policy. You can unsubscribe from newsletters at any time.</p>
                 </div>
                 <div>
@@ -466,6 +615,30 @@
         <div class="d-flex justify-content-center">
             <img id="btmImg" src="./images/Screenshot 2024-04-30 173030.png" alt="">
         </div>
+    </footer>
+    <footer id="footer3" class="d-flex flex-column justify-content-center align-items-center">
+        <a href="">BACK TO TOP</a>
+    </footer>
+    <footer id="footer4">
+        <div class="d-flex align-items-center justify-content-around">
+            <a href="">CHAT WITH US</a>
+            <a href="">HELP CENTER</a>
+            <a href="">CONTACT US</a>
+        </div>
+        <div class="d-flex align-items-center justify-content-around mt-2">
+            <a href="">TERMS & CONDITIONS</a>
+            <a href="">PRIVACY NOTICE</a>
+            <a href="">COOKIE NOTICE</a>
+        </div>
+        <div class="d-flex align-items-center justify-content-around mt-2">
+            <a href="">BECOME A SELLER</a>
+            <a href="">REPORT A PRODUCT</a>
+        </div>
+        <div class="d-flex align-items-center justify-content-evenly mt-2">
+            <a href="">JUMIA ANNIVERSARY 2024</a>
+        </div>
+        <div class="border border-secondary my-2"></div>
+        <p>All Rights Reserved</p>
     </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 

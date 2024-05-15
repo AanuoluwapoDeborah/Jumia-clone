@@ -3,22 +3,27 @@
     padding: 0;
 }
 #topNav{
-    height: fit-content;
     background-color: #e4e3e3;
+}
+#sellDiv{
+    width: 45%;
 }
 #topNav a{
     color: #f68b1e;
-    font-size: 12px;
+    font-size: 11px;
     font-weight: 600;
 }
 #topNav a img{
-    width: 4%;
+    width: 2.5%;
+}
+#payLogo{
+    width: 55%;
 }
 #topNav #payLogo #logoOne{
-    width: 12%;
+    width: 9%;
 }
 #topNav #payLogo #logoTwo{
-    width: 9%;
+    width: 6%;
     cursor: pointer;
 }
 #nav2{
@@ -91,7 +96,6 @@ nav input{
 }
 #firstSection{
     margin-bottom: 15px;
-    /* height: fit-content; */
 }
 #firstSectionLeft{
     width: 27%;
@@ -531,8 +535,11 @@ footer button{
     text-decoration: none;
     font-size: 14px;
 }
-#descriptionSec #topLeftDiv a img{
+#descriptionSec #topLeftDiv #aDiv img{
     width: 4%;
+}
+#descriptionSec #topLeftDiv #aDiv a{
+    line-height: 18px;
 }
 #descriptionSec #topLeftDiv a:hover{
     text-decoration: underline;
@@ -546,7 +553,7 @@ footer button{
     cursor: pointer;
 }
 #descriptionSec .align-self{
-    margin-top: 100px;
+    margin-top: 30px;
 }
 #descriptionSec #topRightDiv h5{
     font-size: 14px;
@@ -571,12 +578,15 @@ footer button{
 #descriptionSec #topRightDiv input{
     outline: none;
 }
-#descriptionSec #topRightDiv img{
-    width: 18%;
-}
 #descriptionSec #topRightDiv b{
     font-weight: 600;
 }
 #descriptionSec #topRightDiv #delivery a{
     font-size: 12px;
+}
+#responsiveDesc{
+    display: none !important;
+}
+#footer3, #footer4{
+    display: none;
 }

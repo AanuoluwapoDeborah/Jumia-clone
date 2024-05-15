@@ -16,13 +16,14 @@
 #sectionSeven #cardHover, #sectionNine #cardHover{
     width: 33%;
 }
-#nav2{
-    display: none;
+#nav2, #topNav{
+    display: none !important;
 }
 #nav3{
     display: block !important;
     position: sticky;
     top: 0;
+    padding-bottom: 10px !important;
 }
 #logoDiv img{
     width: 45%;
@@ -32,4 +33,59 @@
 }
 #footer1, #footer2{
     display: none !important;
+}
+#responsiveDesc{
+    display: block !important;
+}
+#desktopDesc{
+    display: none !important;
+}
+#cartSec, #descriptionSec{
+    padding: 15px 0px !important;
+}
+#descriptionSec #topLeftDiv h5{
+    font-size: 14px;
+}
+#descriptionSec #topLeftDiv a img{
+    width: 4%;
+}
+#descriptionSec #topLeftDiv h4{
+    font-size: 17px;
+}
+#descriptionSec #topLeftDiv input{
+    outline: none;
+}
+#descriptionSec #topLeftDiv b{
+    font-weight: 600;
+}
+#descriptionSec #topLeftDiv #delivery a{
+    font-size: 12px;
+}
+#jumiaExpress{
+    width: 35%;
+}
+#descriptionSec .align-self{
+    margin-top: 0;
+}
+#footer3{
+    background-color: #535357;
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+#footer4{
+    display: block;
+    padding: 15px;
+    background-color: black;
+}
+#footer4 p{
+    color: gray;
+    margin: 0;
+    text-align: center;
+    font-size: 14px;
 }

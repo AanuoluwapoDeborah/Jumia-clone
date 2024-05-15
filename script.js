@@ -19,9 +19,6 @@ const discountedPrice = document.getElementById("discountedPrice");
 const initialPrice = document.getElementById("initialPrice");
 const productImage = document.getElementById("productImage");
 
-// const urlParams = new URLSearchParams(window.location.search);
-// const productId = urlParams.get('productId');
-
 const fetchProductData = async () => {
     try {
         const response = await fetch('products.json');
@@ -34,7 +31,7 @@ const fetchProductData = async () => {
 
 const showDescription = (id) => {
     fetchProductData()
-        .then(products => {
+        .then((products) => {
             console.log("Products:", products)
             const product = products.find(prod => prod.id === id);
             console.log("Product:", product)
@@ -57,12 +54,6 @@ const showDescription = (id) => {
         });
 };
 
-document.querySelectorAll('.product-card').forEach(card => {
-    card.addEventListener('click', () => {
-        const productId = parseInt(card.dataset.id);
-        showDescription(productId);
-    });
-});
 
 // let cart = [];
 
