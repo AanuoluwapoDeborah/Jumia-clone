@@ -29,12 +29,13 @@
 #nav2{
     position: sticky;
     top: 0;
+    padding: 15px 30px;
 }
 #nav3{
     display: none !important;
 }
 #logo{
-    width: 45%;
+    width: 75%;
 }
 nav{
     height: fit-content;
@@ -107,6 +108,10 @@ ul{
     margin: 0 !important;
     padding: 0 10px !important;
 }
+#firstSectionLeft ul a{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.795) !important;
+}
 #firstSectionLeft a :hover{
     color: #f68b1e;
 }
@@ -167,7 +172,7 @@ ul{
     width: 16.5%;
     margin-bottom: 5px;
 }
-#sectionThree, #sectionTen{
+#sectionThree{
     margin-bottom: 15px;
 }
 #sectionThree #seeAllLink{
@@ -216,6 +221,9 @@ ul{
 }
 #sectionFive a{
     width: 33%;
+}
+#sectionTen{
+    margin-bottom: 15px;
 }
 #seeAllLink{
     font-size: 14px;
@@ -588,5 +596,5 @@ footer button{
     display: none !important;
 }
 #footer3, #footer4{
-    display: none;
+    display: none !important;
 }

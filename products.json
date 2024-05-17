@@ -166,99 +166,215 @@
         },
         {
             "id": 22,
-            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
-            "brand": "Sumec",
-            "discountedPrice": 314800,
-            "initialPrice": 350000,
+            "title": "SUMEC FIRMAN 3.5KVA SUMEC GENERATOR ECO4990ES Copper Coil",
+            "brand": "SUMEC FIRMAN",
+            "discountedPrice": 550000,
             "image": "./images/sec6 4.jpg"
         },
         {
             "id": 23,
-            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
+            "title": "Sumec 2.0 KVA Constant Manual Starter Generator (SPG2900)",
             "brand": "Sumec",
-            "discountedPrice": 314800,
-            "initialPrice": 350000,
+            "discountedPrice": 304070,
             "image": "./images/sec6 5.jpg"
         },
         {
             "id": 24,
-            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
-            "brand": "Sumec",
-            "discountedPrice": 314800,
-            "initialPrice": 350000,
+            "title": "Firman Surface Pumping Machine FVP370 0.5HP",
+            "brand": "Firman",
+            "discountedPrice": 51120,
+            "initialPrice": 69325,
             "image": "./images/sec6 6.jpg"
         },
         {
             "id": 25,
-            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
-            "brand": "Sumec",
-            "discountedPrice": 314800,
-            "initialPrice": 350000,
+            "title": "SUMEC FIRMAN 1.0kva Manual Generator - SPG1800 Promax",
+            "brand": "SUMEC FIRMAN",
+            "discountedPrice": 250500,
             "image": "./images/sec6 7.jpg"
         },
         {
             "id": 26,
-            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
-            "brand": "Sumec",
-            "discountedPrice": 314800,
-            "initialPrice": 350000,
+            "title": "Firman Surface Pumping Machine FJP750 1HP",
+            "brand": "Firman",
+            "discountedPrice": 100820,
+            "initialPrice": 138700,
             "image": "./images/sec6 8.jpg"
         },
         {
             "id": 27,
-            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
-            "brand": "Sumec",
-            "discountedPrice": 314800,
-            "initialPrice": 350000,
+            "title": "SUMEC FIRMAN 2.5kva Key Start Generator - SPG3000E2",
+            "brand": "SUMEC FIRMAN",
+            "discountedPrice": 399905,
+            "initialPrice": 477050,
             "image": "./images/sec6 9.jpg"
         },
         {
             "id": 28,
-            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
-            "brand": "Sumec",
-            "discountedPrice": 314800,
-            "initialPrice": 350000,
+            "title": "Firman 1.1HP Inverter Air Conditioner (FDI-10GSC)",
+            "brand": "Firman",
+            "discountedPrice": 448400,
+            "initialPrice": 500000,
             "image": "./images/sec6 10.jpg"
         },
         {
             "id": 29,
-            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
-            "brand": "Sumec",
-            "discountedPrice": 314800,
-            "initialPrice": 350000,
+            "title": "Firman Submersible Pumping Machine 4SDM3/13- 1HP",
+            "brand": "Firman",
+            "discountedPrice": 195960,
+            "initialPrice": 225950,
             "image": "./images/sec6 11.jpg"
         },
         {
             "id": 30,
-            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
+            "title": "Sumec Firman 8.0KVA Generator With Remote Control - ECO12990ESR",
             "brand": "Sumec",
-            "discountedPrice": 314800,
-            "initialPrice": 350000,
+            "discountedPrice": 1017610,
+            "initialPrice": 1450000,
             "image": "./images/sec6 12.jpg"
         },
         {
             "id": 31,
-            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
-            "brand": "Sumec",
-            "discountedPrice": 314800,
-            "initialPrice": 350000,
+            "title": "Firman Submersible Pumping Machine 4SDM3/7- 0.5HP",
+            "brand": "Firman",
+            "discountedPrice": 156200,
+            "initialPrice": 165375,
             "image": "./images/sec6 13.jpg"
         },
         {
             "id": 32,
-            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
-            "brand": "Sumec",
-            "discountedPrice": 314800,
-            "initialPrice": 350000,
+            "title": "Firman 4kva Switch Start Generator - AC8000E2",
+            "brand": "Firman",
+            "discountedPrice": 786500,
+            "initialPrice": 860950,
             "image": "./images/sec6 14.jpg"
         },
         {
             "id": 33,
-            "title": "SUMEC FIRMAN 2.5kva Manual Generator - SPG3000",
+            "title": "Sumec Firman 6kva Key Start Generator FPG8800E2",
             "brand": "Sumec",
-            "discountedPrice": 314800,
-            "initialPrice": 350000,
+            "discountedPrice": 679415,
+            "initialPrice": 1155375,
             "image": "./images/sec6 15.jpg"
+        },
+        {
+            "id": 34,
+            "title": "itel 10000mAh Fast Charging,STAR100 Mobile Power Charge Bank",
+            "brand": "itel",
+            "discountedPrice": 11419,
+            "initialPrice": 13000,
+            "image": "./images/sec8 1.jpg"
+        },
+        {
+            "id": 35,
+            "title": "Oraimo FreePods Lite 40-hour Playtime ENC True Wireless Earbuds",
+            "brand": "Oraimo",
+            "discountedPrice": 19810,
+            "initialPrice": 19900,
+            "image": "./images/sec8 2.jpg"
+        },
+        {
+            "id": 36,
+            "title": "itel 5W Charger With Free Cable - Black",
+            "brand": "itel",
+            "discountedPrice": 2473,
+            "initialPrice": 4000,
+            "image": "./images/sec8 3.jpg"
+        },
+        {
+            "id": 37,
+            "title": "Zealot S51 Portable Wireless Bluetooth Speaker IPX5 Waterproof",
+            "brand": "Zealot",
+            "discountedPrice": 24850,
+            "initialPrice": 47220,
+            "image": "./images/sec8 4.jpg"
+        },
+        {
+            "id": 38,
+            "title": "itel Super Slim 10000mAh 2.1A Fast Charging Power Bank",
+            "brand": "itel",
+            "discountedPrice": 11400,
+            "initialPrice": 20000,
+            "image": "./images/sec8 5.jpg"
+        },
+        {
+            "id": 39,
+            "title": "Oraimo BoomPop Over-Ear Bluetooth Wireless Headphone",
+            "brand": "Oraimo",
+            "discountedPrice": 38900,
+            "initialPrice": 40000,
+            "image": "./images/sec8 6.jpg"
+        },
+        {
+            "id": 40,
+            "title": "itel BT5.1, AUX & Card Strong Bass Wireless Over-Ear Headphone",
+            "brand": "itel",
+            "discountedPrice": 14950,
+            "initialPrice": 15000,
+            "image": "./images/sec8 7.jpg"
+        },
+        {
+            "id": 41,
+            "title": "Oraimo 10000mAh Power-Bank OPB-P118D",
+            "brand": "Oraimo",
+            "discountedPrice": 15200,
+            "initialPrice": 26000,
+            "image": "./images/sec8 8.jpg"
+        },
+        {
+            "id": 42,
+            "title": "Lenovo LP40 Bluetooth 5.0 Waterproof Earphone - Black",
+            "brand": "Lenovo",
+            "discountedPrice": 8799,
+            "initialPrice": 12990,
+            "image": "./images/sec8 9.jpg"
+        },
+        {
+            "id": 43,
+            "title": "SanDisk 32GB Memory Card SDHC Card C10 (not For IPhone)",
+            "brand": "SanDisk",
+            "discountedPrice": 6350,
+            "image": "./images/sec8 10.jpg"
+        },
+        {
+            "id": 44,
+            "title": "Qcy T13 Bluetooth Earphone V5.1 True Wireless 4-Mic & ENC",
+            "brand": "Qcy",
+            "discountedPrice": 18500,
+            "initialPrice": 28000,
+            "image": "./images/sec8 11.jpg"
+        },
+        {
+            "id": 45,
+            "title": "Oraimo Colorful Light Thumping Bass SoundFlow Wireless Soundbar",
+            "brand": "Oraimo",
+            "discountedPrice": 76610,
+            "initialPrice": 146610,
+            "image": "./images/sec8 12.jpg"
+        },
+        {
+            "id": 46,
+            "title": "Lenovo LP40 Bluetooth 5.0 Waterproof Earphone - White",
+            "brand": "Lenovo",
+            "discountedPrice": 8999,
+            "initialPrice": 12990,
+            "image": "./images/sec8 13.jpg"
+        },
+        {
+            "id": 47,
+            "title": "itel BL-5C 1000mAh Long Lasting Replacement Battery",
+            "brand": "itel",
+            "discountedPrice": 2850,
+            "initialPrice": 5000,
+            "image": "./images/sec8 14.jpg"
+        },
+        {
+            "id": 48,
+            "title": "Oraimo Wrap Innovative Velcro Strap Heavy Bass Wireless Speaker",
+            "brand": "Oraimo",
+            "discountedPrice": 40000,
+            "initialPrice": 66850,
+            "image": "./images/sec8 15.jpg"
         }
     ]
 }

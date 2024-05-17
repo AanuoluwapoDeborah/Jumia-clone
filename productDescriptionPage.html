@@ -10,7 +10,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
-<body>
+<body onload="showDescription(productId)">
     <nav id="topNav" class="d-flex align-items-center px-5">
         <div>
             <a href="./marketplaceVendor.html" class="mx-3 link-offset-1-hover link-underline-warning link-underline-opacity-0 link-underline-opacity-75-hover d-flex align-items-center">
@@ -23,25 +23,25 @@
             <img class="mx-1 img-fluid" id="logoTwo" src="./images/jumia-pay-logo-removebg-preview.png" alt="">
         </div>
     </nav>
-    <nav id="nav2" class="navbar navbar-expand-lg bg-body px-4 py-4">
-        <div class="container-fluid d-flex align-items-center justify-content-around">
-          <div>
+    <nav id="nav2" class="navbar navbar-expand-lg bg-body p-4">
+        <div class="container-fluid d-flex align-items-center">
+          <div style="width: 15%;">
             <img id="logo" class="img-fluid" src="./images/jumia-logo-removebg-preview.png" alt="">
           </div>
-          <div class="d-flex justify-content-between align-items-center w-75" id="navbarSupportedContent">
-                <div class="d-flex align-items-center w-50">
+          <div style="width: 80%;" class="d-flex justify-content-between align-items-center" id="navbarSupportedContent">
+                <div class="d-flex align-items-center" style="width: 65%;">
                     <div class="border border-black border-opacity-25 p-2 d-flex align-items-center rounded-2 me-2 w-100">
                         <i class="fa-solid fa-magnifying-glass"></i>
                         <input class="border border-0 w-100 bg-transparent mx-2" type="search" placeholder="Search products, brands and categories" aria-label="Search">
                     </div>
-                    <button id="searchBtn" class="btn text-light" type="submit">SEARCH</button>
+                    <button id="searchBtn" class="btn text-light shadow" type="submit">SEARCH</button>
                 </div>
-                <div class="dropDownDiv d-flex align-items-center justify-content-between">
+                <div class="dropDownDiv d-flex align-items-center justify-content-between" style="width: 33%;">
                     <div class="navDropDown" id="navDropDown">
-                        <div class="rounded-2" id="buttonDiv">
+                        <div class="rounded-2 d-flex gap-2 align-items-center" id="buttonDiv">
                             <i class="fa-regular fa-user"></i>
-                            <button>Account</button>
-                            <i class="fa-solid fa-angle-down"></i>
+                            <button class="fw-medium">Account</button>
+                            <img width="12" height="12" src="https://img.icons8.com/ios-glyphs/30/1A1A1A/chevron-down.png" alt="circled-chevron-up"/>
                         </div>
                         <ul class="dropdown-menu shadow p-0" id="dropDownContent">
                             <button class="dropBtn rounded-2 m-3">LIVE CHAT</button>
@@ -64,10 +64,10 @@
                         </ul>
                     </div>
                     <div class="navDropDown" id="navDropDown2">
-                        <div class="rounded-2" id="buttonDiv2">
+                        <div class="rounded-2 d-flex gap-2 align-items-center" id="buttonDiv2">
                             <i class="fa-regular fa-circle-question"></i>
-                            <button>Help</button>
-                            <i class="fa-solid fa-angle-down"></i>
+                            <button class="fw-medium">Help</button>
+                            <img width="12" height="12" src="https://img.icons8.com/ios-glyphs/30/1A1A1A/chevron-down.png" alt="circled-chevron-up"/>
                         </div>
                         <ul class="dropdown-menu shadow p-0" id="dropDownContent">
                             <li class="px-3"><a class="link-dark link-offset-1-hover link-underline-opacity-0" href="">Help Center</a></li>
@@ -80,9 +80,9 @@
                             <button class="dropBtn rounded-2 m-3">LIVE CHAT</button>
                         </ul>
                     </div>
-                    <a class="link-dark mx-3 link-offset-1-hover link-underline-opacity-0 d-flex align-items-center" href="./cartPage.html">
-                        <i class="fa-solid fa-cart-shopping"></i>
-                        <span class="mx-2">Cart</span>
+                    <a class="link-dark link-offset-1-hover link-underline-opacity-0 d-flex align-items-center" href="./cartPage.html">
+                        <img width="20" height="20" src="https://img.icons8.com/material-outlined/24/1A1A1A/shopping-cart--v1.png" alt="shopping-cart--v1"/>
+                        <span class="mx-2 fw-medium">Cart</span>
                     </a>
                 </div>
           </div>
@@ -105,7 +105,9 @@
             <div class="rounded-1 bg-white shadow-sm p-3 w-75">
                 <div class="d-flex gap-3" id="topLeftDiv">
                     <div>
-                        <div><img id="productImage" src="" alt=""></div>
+                        <div>
+                            <img id="productImage" src="" alt="">
+                        </div>
                         <div id="shareProduct" class="mt-4">
                             <p class="m-0">SHARE THIS PRODUCT</p>
                             <div class="d-flex align-items-center mt-2 gap-1">
@@ -263,17 +265,17 @@
             <div class="">
                 <div class="" id="topLeftDiv">
                     <div class="px-3">
-                        <img class="rounded-1 shadow-sm" id="productImage" src="" alt="">
+                        <img class="rounded-1 shadow-sm" id="product_image" src="" alt="">
                     </div>
                     <div class="bg-white shadow-sm p-3 mt-3">
-                        <h1 id="productTitle"></h1>
+                        <h1 id="product_title"></h1>
                         <div>
                             Brand: 
-                            <a id="brandName" href=""></a>
+                            <a id="brand_name" href=""></a>
                         </div>
                         <div id="boldPrice">
-                            <b id="discountedPrice"></b>
-                            <span id="initialPrice"></span>
+                            <b id="discounted_price"></b>
+                            <span id="initial_price"></span>
                         </div>
                         <div class="d-flex flex-column">
                             <small class="text-secondary py-2">In stock</small>
@@ -404,7 +406,9 @@
                 </div>
             </div>
         </div>
-        <div id="sectionThree" class="rounded-2 bg-white shadow-sm mt-3">
+    </section>
+    <section id="descriptionSec">
+        <div id="sectionThree" class="rounded-2 bg-white shadow-sm">
             <div class="d-flex justify-content-between align-items-center px-3">
                 <h5 class="py-3">Top selling items</h5>
                 <a id="seeAllLink" class="link-underline link-underline-opacity-0 fw-medium" href="">SEE ALL <i class="fa-solid fa-angle-right"></i></a>
@@ -616,8 +620,11 @@
             <img id="btmImg" src="./images/Screenshot 2024-04-30 173030.png" alt="">
         </div>
     </footer>
-    <footer id="footer3" class="d-flex flex-column justify-content-center align-items-center">
-        <a href="">BACK TO TOP</a>
+    <footer id="footer3">
+        <a class="d-flex flex-column align-items-center" href="">
+            <img width="20" height="20" src="https://img.icons8.com/ios-glyphs/30/FFFFFF/chevron-up.png" alt="circled-chevron-up"/>
+            BACK TO TOP
+        </a>
     </footer>
     <footer id="footer4">
         <div class="d-flex align-items-center justify-content-around">
