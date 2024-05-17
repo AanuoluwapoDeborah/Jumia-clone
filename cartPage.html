@@ -103,34 +103,85 @@
         </div>
     </nav>
     <section id="cartSec">
-        <!-- <div id="cartDiv" class="rounded-2 bg-white shadow-sm d-flex flex-column align-items-center justify-content-center gap-4">
-            <img src="./images/cart-image.svg" alt="">
-            <div class="d-flex flex-column align-items-center justify-content-center gap-2">
-                <h6>Your cart is empty!</h6>
-                <span>Browse our categories and discover our best deals!</span>
+        <div id="desktopDesc">
+            <!-- <div id="cartDiv" class="rounded-2 bg-white shadow-sm d-flex flex-column align-items-center justify-content-center gap-4">
+                <img src="./images/cart-image.svg" alt="">
+                <div class="d-flex flex-column align-items-center justify-content-center gap-2">
+                    <h6>Your cart is empty!</h6>
+                    <span>Browse our categories and discover our best deals!</span>
+                </div>
+                <a href="./index.html">
+                    <button class="btn rounded-1 mt-2 shadow">START SHOPPING</button>
+                </a>
+            </div> -->
+            <div class="d-flex justify-content-between gap-3">
+                <div class="rounded-2 bg-white shadow-sm w-75 p-3">
+                    <h5>Cart (1)</h5>
+                    <div class="border border-secondary border-opacity-25 my-3"></div>
+                    <div id="cartTop" class=" mt-3">
+                        <div id="productDetails" class="d-flex justify-content-between mt-2">
+                            <div style="width: 65%;" class="d-flex gap-3">
+                                <img class="rounded-1 img-fluid" src="./images/sec4 one.jpg" alt="">
+                                <div>
+                                    <p class="m-0">
+                                        Men's Palm Sandals PU Leather Shoes Comfortable Soft Sole Casual Black
+                                    </p>
+                                    <small>In stock</small>
+                                </div>
+                            </div>
+                            <div style="width: fit-content;">
+                                <b>₦ 15,760</b> <br>
+                                <span>₦ 18,900</span>
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-between mt-3">
+                            <button class="d-flex align-items-center rounded-1">
+                                <img src="./images/Screenshot 2024-05-03 154220.png" alt="">
+                                REMOVE
+                            </button>
+                            <div id="quantity" class="d-flex align-items-center justify-content-between">
+                                <img id="minus" class="rounded-1 shadow" src="./images/icons8-minus-50.png" alt="">
+                                <p class="m-0">1</p>
+                                <img id="plus" class="rounded-1 shadow" src="./images/icons8-plus-50.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="checkoutDiv" class="rounded-2 bg-white shadow-sm w-25 p-2">
+                    <p class="m-0">CART SUMMARY</p>
+                    <div class="border border-secondary border-opacity-25 my-2"></div>
+                    <div class="d-flex align-items-center justify-content-between">
+                        <p class="m-0">Subtotal</p>
+                        <b>₦ 15,760</b>
+                    </div>
+                    <div class="border border-secondary border-opacity-25 my-2"></div>
+                    <button class="btn w-100 rounded-1">CHECKOUT (₦ 15,760)</button>
+                </div>
             </div>
-            <a href="./index.html">
-                <button class="btn rounded-1 mt-2 shadow">START SHOPPING</button>
-            </a>
-        </div> -->
-        <div class="d-flex justify-content-between gap-3">
-            <div class="rounded-2 bg-white shadow-sm w-75 p-3">
-                <h5>Cart (1)</h5>
-                <div class="border border-secondary border-opacity-25 my-3"></div>
+        </div>
+        <div id="responsiveDesc" class="">
+            <p class="m-0 p-2 px-3">CART SUMMARY</p>
+            <div id="checkoutDiv" class="my-2 px-3 bg-white shadow-sm p-2">
+                <div class="d-flex align-items-center justify-content-between">
+                    <b class="m-0">Subtotal</b>
+                    <b style="font-weight: 700;">₦ 15,760</b>
+                </div>
+                <p style="font-size: 14px; font-weight: 400; color: gray;" class="m-0">Delivery fees not included yet.</p>
+            </div>
+            <p class="m-0 p-2 px-3">CART (1)</p>
+            <div class="rounded-2 bg-white shadow-sm p-3">
                 <div id="cartTop" class=" mt-3">
                     <div id="productDetails" class="d-flex justify-content-between mt-2">
-                        <div style="width: 65%;" class="d-flex gap-3">
-                            <img class="rounded-1" src="./images/sec4 one.jpg" alt="">
+                        <div class="d-flex gap-3">
+                            <img class="rounded-1 img-fluid" style="width: 30%;" src="./images/sec4 one.jpg" alt="">
                             <div>
                                 <p class="m-0">
                                     Men's Palm Sandals PU Leather Shoes Comfortable Soft Sole Casual Black
                                 </p>
+                                <b>₦ 15,760</b>
+                                <span>₦ 18,900</span> <br>
                                 <small>In stock</small>
                             </div>
-                        </div>
-                        <div style="width: fit-content;">
-                            <b>₦ 15,760</b> <br>
-                            <span>₦ 18,900</span>
                         </div>
                     </div>
                     <div class="d-flex align-items-center justify-content-between mt-3">
@@ -138,7 +189,7 @@
                             <img src="./images/Screenshot 2024-05-03 154220.png" alt="">
                             REMOVE
                         </button>
-                        <div id="quantity" class="d-flex align-items-center justify-content-between">
+                        <div id="quantity" class="d-flex align-items-center justify-content-between gap-4">
                             <img id="minus" class="rounded-1 shadow" src="./images/icons8-minus-50.png" alt="">
                             <p class="m-0">1</p>
                             <img id="plus" class="rounded-1 shadow" src="./images/icons8-plus-50.png" alt="">
@@ -146,25 +197,32 @@
                     </div>
                 </div>
             </div>
-            <div id="checkoutDiv" class="rounded-2 bg-white shadow-sm w-25 p-2">
-                <p class="m-0">CART SUMMARY</p>
-                <div class="border border-secondary border-opacity-25 my-2"></div>
-                <div class="d-flex align-items-center justify-content-between">
-                    <p class="m-0">Subtotal</p>
-                    <b>₦ 15,760</b>
+            <div id="cartTop" style="height: 7vh;" class="my-3 bg-white shadow-sm p-2 d-flex align-items-center gap-2">
+                <img style="width: 13%; height: inherit;" class="img-fluid" src="./images/Screenshot 2024-05-14 230411.png" alt="">
+                <div style="height: inherit;" id="checkout" class="w-100">
+                    <button style="height: inherit;" class="btn w-100 py-2 rounded-2">
+                        CHECKOUT (₦ 18,900)
+                    </button>
                 </div>
-                <div class="border border-secondary border-opacity-25 my-2"></div>
-                <button class="btn w-100 rounded-1">CHECKOUT (₦ 15,760)</button>
+            </div>
+            <div id="checkoutDiv" class="m-2 bg-white shadow-sm p-2">
+                <b>Returns are easy</b>
+                <p style="font-size: 14px; font-weight: 400;" class="m-0">
+                    Free return within 7 days for ALL eligible items 
+                    <a style="text-decoration: none; color: #293a5f;" href="">Details</a>
+                </p>
             </div>
         </div>
-        <div id="sectionFour" class="rounded-2 bg-white shadow-sm mt-3">
+    </section>
+    <section id="descriptionSec">
+        <div id="sectionThree" class="rounded-2 bg-white">
             <div class="d-flex justify-content-between align-items-center px-3">
                 <h5 class="py-3">Top selling items</h5>
                 <a id="seeAllLink" class="link-underline link-underline-opacity-0 fw-medium" href="">SEE ALL <i class="fa-solid fa-angle-right"></i></a>
             </div>
-            <div id="sectionFourDiv" class="px-2 d-flex justify-content-evenly">
-                <div class="card border border-0 sectionFourDivs" id="cardHover">
-                    <a class="nav-link" href="">
+            <div id="sectionThreeDiv" class="px-2 d-flex justify-content-evenly">
+                <div onclick="showDescription(1)" class="card border border-0 sectionThreeDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=1">
                         <img src="./images/sec4 one.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Men's Palm Sandals PU L...</p>
@@ -173,38 +231,38 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFourDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(2)" class="card border border-0 sectionThreeDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=2">
                         <img src="./images/sec4 two.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">itel 20000mAH Mobile Po...</p>
-                            <b>₦ 16,000</b> <br>
-                            <span>₦ 18,500</span>
+                            <b>₦ 19,900</b> <br>
+                            <span>₦ 25,000</span>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFourDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div  onclick="showDescription(3)" class="card border border-0 sectionThreeDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=3">
                         <img src="./images/sec4 three.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Ace Elec 20000 MAH Utra...</p>
-                            <b>₦ 8,600</b> <br>
-                            <span>₦ 12,000</span>
+                            <b>₦ 19,999</b> <br>
+                            <span>₦ 30,000</span>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFourDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(4)" class="card border border-0 sectionThreeDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=4">
                         <img src="./images/sec4 four.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
-                            <p class="card-text">Sun King Home 200X Ultr...</p>
-                            <b>₦ 103,509</b> <br>
+                            <p class="card-text">Sun King Home 200X Plu...</p>
+                            <b>₦ 101,645</b> <br>
                             <span>₦ 111,300</span>
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFourDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(3)" class="card border border-0 sectionThreeDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=3">
                         <img src="./images/sec4 five.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">Ace Elec 20000 MAH Utra...</p>
@@ -213,8 +271,8 @@
                         </div>
                     </a>
                 </div>
-                <div class="card border border-0 sectionFourDivs" id="cardHover">
-                    <a class="nav-link" href="">
+                <div onclick="showDescription(5)" class="card border border-0 sectionThreeDivs" id="cardHover">
+                    <a class="nav-link" href="./productDescriptionPage.html?productId=5">
                         <img src="./images/sec4 six.jpg" class="card-img-top rounded-2 img-fluid" alt="">
                         <div class="card-body details">
                             <p class="card-text">100% Cotten 4 Pcs Men'...</p>
@@ -226,8 +284,6 @@
             </div>
         </div>
     </section>
-
-
     <footer id="footer1" class="d-flex justify-content-between">
         <div class="w-25">
             <img id="footerLogo" class="img-fluid" src="./images/jumia-footer-logo-removebg-preview.png" alt="">
@@ -369,6 +425,27 @@
         <div class="d-flex justify-content-center">
             <img id="btmImg" src="./images/Screenshot 2024-04-30 173030.png" alt="">
         </div>
+    </footer>
+    <footer id="footer4">
+        <div class="d-flex align-items-center justify-content-around">
+            <a href="">CHAT WITH US</a>
+            <a href="">HELP CENTER</a>
+            <a href="">CONTACT US</a>
+        </div>
+        <div class="d-flex align-items-center justify-content-around mt-2">
+            <a href="">TERMS & CONDITIONS</a>
+            <a href="">PRIVACY NOTICE</a>
+            <a href="">COOKIE NOTICE</a>
+        </div>
+        <div class="d-flex align-items-center justify-content-around mt-2">
+            <a href="">BECOME A SELLER</a>
+            <a href="">REPORT A PRODUCT</a>
+        </div>
+        <div class="d-flex align-items-center justify-content-evenly mt-2">
+            <a href="">JUMIA ANNIVERSARY 2024</a>
+        </div>
+        <div class="border border-secondary my-2"></div>
+        <p>All Rights Reserved</p>
     </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 

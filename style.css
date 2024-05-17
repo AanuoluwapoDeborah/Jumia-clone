@@ -475,7 +475,7 @@ footer button{
     background-color: #f68b1e;
     width: 27%;
 }
-#cartSec #checkoutDiv{
+#cartSec #desktopDesc #checkoutDiv{
     height: fit-content;
     position: sticky !important;
     top: 15vh;
@@ -509,16 +509,16 @@ footer button{
     text-decoration: line-through;
     text-decoration-color: rgba(49, 49, 51, 0.605);
 }
-#descriptionSec #topLeftDiv button{
+#descriptionSec #topLeftDiv button, #cartTop #checkout button{
     background-color: #f68b1e;
     border: none !important;
     width: 100%;
     color: white;
 }
-#descriptionSec #topLeftDiv button img{
+#descriptionSec #topLeftDiv button img, #cartTop #checkout button img{
     width: 8%;
 }
-#descriptionSec #topLeftDiv button span{
+#descriptionSec #topLeftDiv button span, #cartTop #checkout button span{
     text-decoration: none;
     color: white;
     font-weight: 600;
